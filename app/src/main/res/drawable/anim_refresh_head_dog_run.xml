@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/chickenrun1"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun2"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun3"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun4"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun5"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun6"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun7"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun8"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun9"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun10"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun11"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun12"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun13"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun14"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun15"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun16"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun17"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/chickenrun18"
+        android:duration="60"/>
+
+
+</animation-list>

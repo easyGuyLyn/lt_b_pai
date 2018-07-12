@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dp_6"
+    android:paddingRight="@dimen/dp_6">
+
+    <TextView
+        android:id="@+id/tv_no"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="52期"
+        android:textSize="@dimen/sp_12" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:src="@mipmap/img_qishu" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_4"
+        android:paddingTop="@dimen/dp_4">
+
+        <TextView
+            android:id="@+id/tv_award_results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="11658"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_award_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_6"
+            android:gravity="center"
+            android:text="11658"
+            android:textColor="@color/order_result_red"
+            android:textSize="@dimen/sp_12" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/open_item_bg"
+    android:orientation="horizontal">
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_3"
+            style="@style/k3_right_chart_text_title_style"
+            android:text="3"/>
+
+        <View
+            android:id="@+id/view_3"
+            style="@style/k3_right_chart_divider_style" />
+
+    </FrameLayout>
+
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_4"
+            style="@style/k3_right_chart_text_title_style"
+            android:text="4"/>
+
+        <View
+            android:id="@+id/view_4"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+
+    </FrameLayout>
+
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_5"
+            style="@style/k3_right_chart_text_title_style"
+            android:text="5"/>
+
+        <View
+            android:id="@+id/view_5"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_6"
+            style="@style/k3_right_chart_text_title_style"
+            android:text="6"/>
+
+        <View
+            android:id="@+id/view_6"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_7"
+            style="@style/k3_right_chart_text_title_style"
+            android:text="7"/>
+
+        <View
+            android:id="@+id/view_7"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_8"
+            style="@style/k3_right_chart_text_title_style" android:text="8"/>
+
+        <View
+            android:id="@+id/view_8"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_9"
+            style="@style/k3_right_chart_text_title_style" android:text="9"/>
+
+        <View
+            android:id="@+id/view_9"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_10"
+            style="@style/k3_right_chart_text_title_style" android:text="10"/>
+
+        <View
+            android:id="@+id/view_10"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_11"
+            style="@style/k3_right_chart_text_title_style" android:text="11"/>
+
+        <View
+            android:id="@+id/view_11"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_12"
+            style="@style/k3_right_chart_text_title_style" android:text="12"/>
+
+        <View
+            android:id="@+id/view_12"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_13"
+            style="@style/k3_right_chart_text_title_style" android:text="13"/>
+
+        <View
+            android:id="@+id/view_13"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_14"
+            style="@style/k3_right_chart_text_title_style" android:text="14"/>
+
+        <View
+            android:id="@+id/view_14"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_15"
+            style="@style/k3_right_chart_text_title_style" android:text="15"/>
+
+        <View
+            android:id="@+id/view_15"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_16"
+            style="@style/k3_right_chart_text_title_style" android:text="16"/>
+
+        <View
+            android:id="@+id/view_16"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_17"
+            style="@style/k3_right_chart_text_title_style" android:text="17"/>
+
+        <View
+            android:id="@+id/view_17"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/pk10_right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_18"
+            style="@style/k3_right_chart_text_title_style" android:text="18"/>
+
+        <View
+            android:id="@+id/view_18"
+            style="@style/k3_right_chart_divider_style"
+            android:textColor="@color/color_chart_line" />
+    </FrameLayout>
+</LinearLayout>

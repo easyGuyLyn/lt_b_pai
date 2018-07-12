@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="期号"
+        android:textColor="@color/color_gray_333333"
+        android:textSize="14sp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/left_recycler_view"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_40"></android.support.v7.widget.RecyclerView>
+    <com.dawoo.lotterybox.view.view.ViewPagerHorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <com.dawoo.lotterybox.view.view.NoMoveRecycleView
+                android:id="@+id/top_type_rc"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+               ></com.dawoo.lotterybox.view.view.NoMoveRecycleView>
+
+            <com.dawoo.lotterybox.view.activity.chart.LineRecyclerView
+                android:id="@+id/content_rv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp_40"/>
+        </RelativeLayout>
+    </com.dawoo.lotterybox.view.view.ViewPagerHorizontalScrollView>
+</RelativeLayout>

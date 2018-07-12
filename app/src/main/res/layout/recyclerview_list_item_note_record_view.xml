@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/dp_20"
+    android:paddingBottom="@dimen/dp_20"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_item_codeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="重庆实时猜"
+            android:singleLine="true"
+            android:textColor="@color/color_gray_666666"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_item_codeExpect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_item_codeName"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="88期"
+            android:textColor="@color/color_gray_666666"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_item_betCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="老汉推车⑩老汉推车⑩"
+            android:singleLine="true"
+            android:textColor="@color/color_gray_666666"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_item_betNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_item_betCode"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="88期"
+            android:textColor="@color/color_gray_666666"
+            android:textSize="@dimen/sp_12" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_item_prize_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="未中奖"
+            android:textColor="@color/color_close_theme"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_item_pl_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_item_prize_status"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="-18"
+            android:textColor="@color/color_close_theme"
+            android:textSize="@dimen/sp_12" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_item_time_yyMMdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="2018-01-02"
+            android:textColor="@color/color_gray_666666"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_item_time_HHmmss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_item_time_yyMMdd"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="17:00"
+            android:textColor="@color/color_gray_666666"
+            android:textSize="@dimen/sp_12" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

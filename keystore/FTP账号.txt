@@ -1,0 +1,10 @@
+IOS:
+	path: dsda3112.com
+	user: iosftpuser
+	pass: Hczz37%7
+	适用于普通FTP模式
+
+Android
+	path: gbapifdxssaa20.info
+	user: androidFtpUser@gbapifdxssaa20.info
+	pass: Hczz37%7

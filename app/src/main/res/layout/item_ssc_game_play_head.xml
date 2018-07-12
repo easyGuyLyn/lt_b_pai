@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ssc_game_play_head_height">
+
+    <TextView
+        android:id="@+id/tv_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:drawablePadding="@dimen/dp_10"
+        android:drawableLeft="@mipmap/img_gold_pig"
+        android:text="0.00"/>
+
+    <CheckBox
+        android:id="@+id/hot_and_cold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="冷热"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/cb_omit"
+        android:paddingRight="3dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_omit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="遗漏"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/iv_random"
+        android:paddingRight="3dp"/>
+
+    <ImageView
+        android:id="@+id/iv_random"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/img_shake"
+        android:layout_alignParentRight="true"
+        android:paddingTop="@dimen/dp_5"
+        android:paddingRight="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_how_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="玩法说明：竞猜开奖号码的后三位"
+        android:drawableRight="@mipmap/icon_question_gray"
+        android:drawablePadding="@dimen/dp_4"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_4"
+        android:textSize="@dimen/sp_12"
+        />
+</RelativeLayout>

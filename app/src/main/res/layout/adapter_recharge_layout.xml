@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/dp_10"
+    android:paddingTop="@dimen/dp_10">
+
+    <TextView
+        android:id="@+id/parent_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/color_gray_666666"
+        android:textSize="@dimen/sp_12" />
+
+    <TextView
+        android:id="@+id/money_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/history_item_blue"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/status_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/color_gray_666666"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/time_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/dp_5"
+        android:textColor="@color/color_gray_666666"
+        android:textSize="12sp" />
+</LinearLayout>

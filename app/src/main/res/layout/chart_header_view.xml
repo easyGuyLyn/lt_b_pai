@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_title_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_status_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height">
+
+        <ImageView
+            android:id="@+id/iv_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:src="@mipmap/head_back_icon_unclick" />
+
+        <TextView
+            android:id="@+id/tv_play_method"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_ssc_base_title"
+            android:padding="@dimen/dp_4"
+            android:textColor="@color/white" />
+
+        <View
+            android:id="@+id/root_view"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/iv_right_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:src="@mipmap/img_setting_white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</LinearLayout>

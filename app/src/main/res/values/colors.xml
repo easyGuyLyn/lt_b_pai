@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fa6200</color>
+    <color name="colorPrimaryDark">#fa6200</color>
+    <color name="colorAccent">#fa6200</color>
+
+    <color name="bgColor">#efefef</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_gray_333333">#333333</color>
+    <color name="color_gray_444444">#444444</color>
+    <color name="color_gray_666666">#666666</color>
+    <color name="color_gray_999999">#999999</color>
+    <color name="color_gray_E2E2E2">#E2E2E2</color>
+    <color name="color_gray_D2D2D2">#d2d2d2</color>
+    <color name="text_color_gray_E2E2E2">#E2E2E2</color>
+    <color name="color_gray_EEEEEE">#EEEEEE</color>
+    <color name="color_gray_cccccc">#cccccc</color>
+    <color name="color_gray_c6c6c6">#c6c6c6</color>
+    <color name="color_gray_efefef">#efefef</color>
+    <color name="white">#FFFFFF</color> <!-- 白色 -->
+    <color name="black">#000000</color> <!-- 黑色 -->
+    <color name="ivory">#fffff0</color> <!-- 象牙色 -->
+    <color name="snow">#fffafa</color> <!-- 雪白色 -->
+    <color name="moccasin">#ffe4b5</color> <!-- 鹿皮色 -->
+    <color name="text_color_gray_999999">#999999</color>
+    <color name="color_gray_light">#70333333</color>
+    <color name="color_black_1111">#111111</color>
+    <color name="head_resfeh_bg">#F6F3E4</color>
+    <!--个人中心-->
+
+    <!-- 底部导航颜色-->
+    <color name="tab_bg">#111111</color>
+    <color name="tab_text_selected">#fa6200</color>
+    <color name="tab_text_normal">#666666</color>
+
+    <!--title主题颜色-->
+    <color name="mine_titlebar">#ff0000</color>
+    <color name="mine_view_bg">#f2f2f2</color>
+    <color name="mine_lv_bg">#ff0000</color>
+    <color name="color_close_theme">#fa6200</color>
+    <color name="color_shape_stroke">#C1B0B1</color>
+    <color name="color_shape_stroke_b_tz">#666666</color>
+    <color name="color_divider">#CFCFCF</color>
+    <color name="setting_account_color">#333333</color>
+
+    <!--custom_weixin-->
+    <color name="custom_weixin">#66d45d</color>
+
+    <color name="custom_qq">#469ed1</color>
+    <color name="custom_one">#fda246</color>
+
+    <!--分享-->
+    <color name="sharegifs_top_color">#ffeccd</color>
+    <color name="sharegifs_top_text">#f75203</color>
+
+
+    <!-- 投注记录 -->
+    <color name="text_note_record_yellow">#fe9e2e</color>
+    <color name="btn_yellow_normal">#fda246</color>
+    <color name="bottom_yellow_normal">#F8F5E6</color>
+    <color name="btn_yellow_normal_light">#50fda246</color>
+
+    <!--ssc-->
+    <color name="item_game_play_rb_select">#fa6200</color>
+    <color name="item_game_play_rb">#9c9c9c</color>
+    <color name="assistant_popup_text">#FF605F60</color>
+    <color name="shop_cart_item_bg">#FFD5DAD4</color>
+    <color name="red_btn_bg">#FFDE1717</color>
+    <color name="tv_submit">#FFE238</color>
+    <color name="color_rcd_xy28_red">#B71A2E</color>
+    <color name="color_text_keno_xy28">#fa6200</color>
+    <color name="color_open_lottery_ball">#fa6200</color>
+    <color name="line_bg">#E7D7A1</color>
+    <color name="text_item_bg">#f2f2f2</color>
+    <color name="ssca_bet_bt_bg">#B54600</color>
+    <color name="bet_info_text_bg">#FFF7F1D1</color>
+    <color name="ll_bottom_bg">#f6f6f6</color>
+
+    <color name="custom_blue">#5F88C0</color>
+    <color name="custom_blue_light">#B4D3F0</color>
+    <color name="custom_blue_light1">#E0ECFC</color>
+    <color name="custom_blue_light1_aplph">#80B4D3F0</color>
+    <!--sixmark-->
+    <color name="sm_bg">#ff2e7790</color>
+    <color name="sm_result_bg">#ff2f6877</color>
+    <color name="text_blue">#ff81cfe1</color>
+    <color name="custom_blue_s">#C3D7E2</color>
+    <color name="color_chart_item_bg">#F7F4E5</color>
+    <color name="color_chart_title_bg">#D5E7EC</color>
+    <color name="color_chart_line">#AF8E84</color>
+    <color name="color_chart_circle_bg">#E7D7A1</color>
+    <color name="color_chart_statistics_1">#EB8EDA</color>
+    <color name="color_chart_statistics_2">#98B75D</color>
+    <color name="color_chart_statistics_3">#E0B574</color>
+    <color name="color_chart_statistics_4">#769EB6</color>
+    <!--pk10_chart-->
+    <color name="big_small_single_double">#A4852A</color>
+    <!--k3_chart-->
+    <color name="open_item_bg">#16634A</color>
+    <color name="open_item_bg2">#196A50</color>
+    <color name="open_item_text">#21886e</color>
+    <color name="open_item_text2">#8dead3</color>
+    <color name="open_tab_layout_selecr">#d8ba51</color>
+    <color name="open_item_bg3">#517d50</color>
+
+    <color name="message_annountment">#999999</color>
+
+    <color name="game_record_bootom_color">#f7f4e6</color>
+    <color name="certfie_bankcard_btn_verification">#f46f1a</color>
+
+    <color name="band_card_scuess">#f75605</color>
+    <color name="item_gray">#2dcecbce</color>
+    <!--投注结果-->
+    <color name="order_result_red">#e21d1d</color>
+
+    <color name="history_item_blue">#0087d5</color>
+    <color name="history_item_green">#069f11</color>
+    <color name="history_item_red">#B71A2E</color>
+    <color name="setting_divide_line">#cdcdcd</color>
+
+    <color name="pay_copy_bg_color">#7e6e9dd0</color>
+</resources>

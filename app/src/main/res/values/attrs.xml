@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordInputView">
+        <attr name="xml" format="reference" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderColor" format="color" />
+        <attr name="borderRadius" format="dimension" />
+        <attr name="passwordLength" format="integer" />
+        <attr name="passwordWidth" format="dimension" />
+        <attr name="passwordColor" format="color" />
+        <attr name="passwordRadius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="umanoPanelHeight" format="dimension" />
+        <attr name="umanoShadowHeight" format="dimension" />
+        <attr name="umanoParallaxOffset" format="dimension" />
+        <attr name="umanoFadeColor" format="color" />
+        <attr name="umanoFlingVelocity" format="integer" />
+        <attr name="umanoDragView" format="reference" />
+        <attr name="umanoScrollableView" format="reference" />
+        <attr name="umanoOverlay" format="boolean" />
+        <attr name="umanoClipPanel" format="boolean" />
+        <attr name="umanoAnchorPoint" format="float" />
+        <attr name="umanoInitialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+        <attr name="umanoScrollInterpolator" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="XNumberKeyboardView">
+
+        <!-- 删除按键的图标 -->
+        <attr name="xnkv_deleteDrawable" format="reference" />
+
+        <!-- 删除按键图标的宽度 -->
+        <attr name="xnkv_deleteWidth" format="dimension|reference" />
+
+        <!-- 删除按键图标的高度 -->
+        <attr name="xnkv_deleteHeight" format="dimension|reference" />
+
+        <!-- 删除按键图标的颜色 -->
+        <attr name="xnkv_deleteBackgroundColor" format="color|reference" />
+
+    </declare-styleable>
+
+
+    <declare-styleable name="ArcView">
+        <attr name="arcHeight" format="dimension"/>
+        <attr name="bgColor" format="color"/>
+        <attr name="isUp" format="boolean"/>
+    </declare-styleable>
+
+</resources>

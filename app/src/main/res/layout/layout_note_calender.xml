@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_actionTheDayBefore"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_note_theDayBefore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/v_1"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/note_theDayBefore"
+                android:textColor="@color/color_gray_666666"
+                android:textSize="@dimen/sp_12" />
+
+            <View
+                android:id="@+id/v_1"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"></View>
+
+            <TextView
+                android:id="@+id/tv_yinKui_dayBefore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v_1"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/account_yinKui"
+                android:textColor="@color/text_note_record_yellow"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0.4dp"
+            android:layout_height="match_parent"
+            android:background="@color/bgColor"></View>
+
+        <RelativeLayout
+            android:id="@+id/rl_ActionCalendar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/v_4">
+
+                <TextView
+                    android:id="@+id/tv_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawableTop="@mipmap/ic_calendar"
+                    android:text="2018"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/v_4"
+                android:layout_width="0.1dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="@color/transparent"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/v_4">
+
+                <TextView
+                    android:id="@+id/tv_md"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/v_5"
+                    android:layout_centerHorizontal="true"
+                    android:text="01/06"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12" />
+
+                <View
+                    android:id="@+id/v_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"></View>
+
+                <TextView
+                    android:id="@+id/tv_yinKui_md"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/v_5"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/account_yinKui"
+                    android:textColor="@color/text_note_record_yellow"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0.4dp"
+            android:layout_height="match_parent"
+            android:background="@color/bgColor"></View>
+
+        <RelativeLayout
+            android:id="@+id/rl_actionTheDayAfter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_note_theDayAfter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/v_3"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/note_theDayAfter"
+                android:textColor="@color/color_gray_666666"
+                android:textSize="@dimen/sp_12" />
+
+            <View
+                android:id="@+id/v_3"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"></View>
+
+            <TextView
+                android:id="@+id/tv_yinKui_dayAfter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v_3"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/account_yinKui"
+                android:textColor="@color/text_note_record_yellow"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

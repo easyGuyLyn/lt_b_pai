@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_base"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/custom_blue_light1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_ssc_b_title" />
+
+        <include layout="@layout/layout_bjkl8_top" />
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_lottery_record"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_top"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="@dimen/dp_30" />
+
+    <com.dawoo.lotterybox.view.view.bottomsheet.SlidingUpPanelLayout
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_top"
+        android:gravity="bottom"
+        sothree:umanoDragView="@+id/lLayout_ssc_bottom_second"
+        sothree:umanoOverlay="false"
+        sothree:umanoPanelHeight="80dp"
+        sothree:umanoParallaxOffset="100dp"
+        sothree:umanoShadowHeight="4dp">
+
+        <include layout="@layout/layout_bjkl8_bottom_first" />
+
+
+        <include layout="@layout/layout_lottery_b_bottom_second" />
+
+    </com.dawoo.lotterybox.view.view.bottomsheet.SlidingUpPanelLayout>
+
+
+</RelativeLayout>

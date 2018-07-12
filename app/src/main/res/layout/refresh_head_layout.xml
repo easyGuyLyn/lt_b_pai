@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/game_record_bootom_color"
+   >
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_refresh_headPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/ll_text" />
+
+    <LinearLayout
+        android:paddingTop="@dimen/dp_15"
+        android:id="@+id/ll_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_refresh_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在刷新"
+            android:textColor="@color/color_gray_666666"
+            android:textSize="12sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_final_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textColor="@color/color_gray_666666"
+            android:textSize="12sp"
+            android:visibility="visible"
+            android:paddingBottom="@dimen/dp_15"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

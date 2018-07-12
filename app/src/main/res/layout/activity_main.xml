@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llTab" />
+
+    <LinearLayout
+        android:id="@+id/llTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@mipmap/main_tab_line" />
+
+        <!--底部菜单-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_bar_height"
+            android:layout_marginBottom="0dp"
+            android:background="@color/tab_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <!--彩票大厅-->
+            <LinearLayout
+                android:id="@+id/lottery_hall_ll"
+                style="@style/tab_bottom_ll_style">
+
+                <ImageView
+                    style="@style/tab_bottom_icon_style"
+                    android:src="@drawable/tab_hall_icon_selector" />
+
+
+                <TextView
+                    style="@style/tab_bottom_text_style"
+                    android:text="@string/tab_lottery_hall" />
+            </LinearLayout>
+
+            <!--彩票开奖记录-->
+            <LinearLayout
+                android:id="@+id/lottery_record_ll"
+                style="@style/tab_bottom_ll_style">
+
+                <ImageView
+                    style="@style/tab_bottom_icon_style"
+                    android:src="@drawable/tab_lottery_record_icon_selector" />
+
+                <TextView
+                    style="@style/tab_bottom_text_style"
+                    android:text="@string/tab_lottery_record" />
+            </LinearLayout>
+
+            <!--投注记录-->
+            <LinearLayout
+                android:id="@+id/note_record_ll"
+                style="@style/tab_bottom_ll_style">
+
+                <ImageView
+                    style="@style/tab_bottom_icon_style"
+                    android:src="@drawable/tab_note_record_icon_selector" />
+
+                <TextView
+                    style="@style/tab_bottom_text_style"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/tab_note_record" />
+            </LinearLayout>
+
+            <!--会员中心-->
+            <LinearLayout
+                android:id="@+id/member_center_ll"
+                style="@style/tab_bottom_ll_style">
+
+                <ImageView
+                    style="@style/tab_bottom_icon_style"
+                    android:src="@drawable/tab_member_center_icon_selector" />
+
+                <TextView
+                    style="@style/tab_bottom_text_style"
+                    android:text="@string/tab_member_center" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

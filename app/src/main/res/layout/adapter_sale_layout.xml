@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dp_5">
+
+    <CheckBox
+        android:id="@+id/select_iv"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_centerVertical="true"
+         />
+
+    <TextView
+        android:id="@+id/sale_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_toRightOf="@id/select_iv"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_gray_666666"
+        android:textSize="@dimen/text_13_sp" />
+
+    <View
+        android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:background="@color/bgColor"
+        android:layout_height="@dimen/dp_0.5" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/line1"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/user_name"
+        style="@style/share_gifrs"
+        android:text="@string/messagecenter_right_bnt_text" />
+
+
+    <TextView
+        android:id="@+id/effective_betting"
+        style="@style/share_gifrs"
+        android:text="@string/messagecenter_right_bnt_text" />
+
+    <TextView
+        android:id="@+id/gifts"
+        style="@style/share_gifrs"
+        android:text="@string/messagecenter_right_bnt_text" />
+
+    <TextView
+        android:id="@+id/status"
+        style="@style/share_gifrs"
+        android:text="@string/messagecenter_right_bnt_text" />
+</LinearLayout>
+

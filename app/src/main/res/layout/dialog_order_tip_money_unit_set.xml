@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_corn_dialog_order_tip_money_unit_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/yuan_tv"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="元"
+        android:textColor="@color/color_gray_666666"
+        android:textSize="@dimen/text_14_sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_gray_666666" />
+
+    <TextView
+        android:id="@+id/jiao_tv"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="角"
+        android:textColor="@color/color_gray_666666"
+        android:textSize="@dimen/text_14_sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_gray_666666" />
+
+    <TextView
+        android:id="@+id/fen_tv"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="分"
+        android:textColor="@color/color_gray_666666"
+        android:textSize="@dimen/text_14_sp" />
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_title_bg"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_status_bar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height">
+
+            <TextView
+                android:id="@+id/tv_login_or_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/dp_10"
+                android:text="@string/login_or_register"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_16_sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/logined_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_10"
+                android:visibility="gone">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_user_icon"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@mipmap/mine_avatar" />
+
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_12_sp"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_title_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/lottery_platform"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_title_sp" />
+
+            <ImageView
+                android:id="@+id/iv_activities"
+                android:layout_width="24dp"
+                android:layout_height="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_10"
+                android:src="@mipmap/mail_icon"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_swipetoloadlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/tab_bar_height" />
+
+</LinearLayout>

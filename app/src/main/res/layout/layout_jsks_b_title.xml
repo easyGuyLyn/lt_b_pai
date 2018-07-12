@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_activity_title"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:background="@drawable/shape_title_bg">
+
+    <FrameLayout
+        android:id="@+id/left_btn"
+        android:layout_width="42dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:src="@mipmap/head_back_icon_unclick" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/js_k3_b"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_title_sp" />
+
+    <TextView
+        android:id="@+id/tv_small_helper"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:text="@string/small_helper"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_title_sp" />
+
+
+</RelativeLayout>

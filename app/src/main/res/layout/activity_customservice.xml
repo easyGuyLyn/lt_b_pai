@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mine_view_bg"
+    android:orientation="vertical">
+
+    <com.dawoo.lotterybox.view.view.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="283dp"
+        android:layout_height="246dp"
+        android:layout_marginLeft="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="34dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/custom_weixin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_weixin"
+                android:onClick="onViewClicked">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:drawableLeft="@mipmap/custom_service_wx"
+                    android:drawablePadding="11dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/custom_contans_wx"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_title_sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/custom_qq"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/custom_q"
+                android:onClick="onViewClicked">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:drawableLeft="@mipmap/custom_service_qq"
+                    android:drawablePadding="17dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/custom_contans_qq"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_title_sp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/custom_one"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/custom_one"
+                android:onClick="onViewClicked">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="客服1"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="83dp"
+        android:drawableTop="@mipmap/mine_top_bg"
+        android:gravity="center"
+        android:textColor="@color/color_gray_333333"
+        android:text="扫一扫,加微信"
+        android:textSize="@dimen/text_12_sp" />
+
+
+</LinearLayout>

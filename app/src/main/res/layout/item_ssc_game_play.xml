@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:background="#f2f2f2">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/img_arrow_first"
+            android:gravity="center"
+            android:text="百位"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+        <RadioGroup
+            android:id="@+id/rg_ssc_game_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/dp_10">
+
+            <RadioButton
+                android:id="@+id/rb_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_game_play_radiobutton_bg_left"
+                android:button="@null"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="全"
+                android:textColor="@color/text_color_item_ssc_game_play_radipbutton"
+                android:textSize="@dimen/sp_14" />
+
+            <RadioButton
+                android:id="@+id/rb_big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_game_play_radiobutton_bg"
+                android:button="@null"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="大"
+                android:textColor="@color/text_color_item_ssc_game_play_radipbutton"
+                android:textSize="@dimen/sp_14" />
+
+            <RadioButton
+                android:id="@+id/rb_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_game_play_radiobutton_bg"
+                android:button="@null"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="小"
+                android:textColor="@color/text_color_item_ssc_game_play_radipbutton"
+                android:textSize="@dimen/sp_14" />
+
+            <RadioButton
+                android:id="@+id/rb_odd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_game_play_radiobutton_bg"
+                android:button="@null"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="单"
+                android:textColor="@color/text_color_item_ssc_game_play_radipbutton"
+                android:textSize="@dimen/sp_14" />
+
+            <RadioButton
+                android:id="@+id/rb_even_numbers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_game_play_radiobutton_bg"
+                android:button="@null"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="双"
+                android:textColor="@color/text_color_item_ssc_game_play_radipbutton"
+                android:textSize="@dimen/sp_14" />
+
+            <RadioButton
+                android:id="@+id/rb_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_game_play_radiobutton_bg_right"
+                android:button="@null"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="清"
+                android:textColor="@color/text_color_item_ssc_game_play_radipbutton"
+                android:textSize="@dimen/sp_14" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/gv_ball_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/dp_10"/>
+
+
+</LinearLayout>

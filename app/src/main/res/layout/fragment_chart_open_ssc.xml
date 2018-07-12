@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.dawoo.lotterybox.view.activity.chart.ssc.ChartFragment">
+
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chart_item_height"
+            android:orientation="horizontal"
+            android:background="@color/color_chart_item_bg">
+
+            <TextView
+                android:id="@+id/left_title_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/color_gray_666666"
+                android:textSize="@dimen/text_14_sp" />
+
+            <View
+                android:layout_width="1.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray_333333"
+                android:layout_gravity="end"/>
+        </FrameLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/left_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/list_item_chart_open_ssc_right_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chart_item_height" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/right_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

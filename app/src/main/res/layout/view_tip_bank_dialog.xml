@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/notice_root_view_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@drawable/notice_title_head_bg"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_10"
+            android:text="提示"
+            android:id="@+id/tv_notice_title"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="50dp"
+                android:text="确实要删除代理吗?"
+                android:id="@+id/tv_content"
+                android:textColor="@color/color_gray_333333"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_cancle"
+                android:gravity="center"
+                android:text="取消"
+                android:id="@+id/tv_cancle"
+                android:paddingBottom="@dimen/dp_6"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_commit"
+                android:gravity="center"
+                android:text="确定"
+                android:paddingBottom="@dimen/dp_6"
+                android:textColor="@color/white"
+                android:id="@+id/tv_commit"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:id="@+id/iv_close"
+        android:src="@mipmap/ic_closed" />
+
+
+</LinearLayout>

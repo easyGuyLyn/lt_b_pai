@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lLayout_ssc_bottom_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:behavior_peekHeight="@dimen/ssc_base_top_height"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_miss_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/text_item_bg"
+            android:drawableLeft="@mipmap/img_lzt_down"
+            android:gravity="center"
+            android:padding="@dimen/dp_5"
+            android:text="@string/two_miss_top"
+            android:textSize="@dimen/text_16_sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_double_way_paper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/text_item_bg"
+            android:drawableLeft="@mipmap/img_lzt_down"
+            android:gravity="center"
+            android:padding="@dimen/dp_5"
+            android:text="@string/two_way_paper"
+            android:textSize="@dimen/text_16_sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rlv_way_paper_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_results_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/text_item_bg"
+            android:layout_marginTop="@dimen/dp_5"
+            android:gravity="center"
+            android:padding="@dimen/dp_5"
+            android:text="总和-单双 单(55)双(65)"
+            android:textSize="@dimen/text_16_sp"/>
+        
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rlv_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dawoo.lotterybox.view.activity.team.OpenAccountActivity">
+
+    <com.dawoo.lotterybox.view.view.HeaderView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hv_titile">
+
+    </com.dawoo.lotterybox.view.view.HeaderView>
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/colorPrimary"
+        app:tabTextColor="@color/color_gray_333333"
+        android:background="@color/white"
+        android:id="@+id/tl_head">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

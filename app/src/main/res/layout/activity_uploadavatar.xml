@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/upload_avatar_gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4" />
+
+
+    <ImageView
+        android:id="@+id/load_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/img_zuihao_add" />
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/mine_lv_bg"
+        android:text="上传头像" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_item_activities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/tv_item_activities_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_item_activities"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="首存优惠赠送"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_item_activities_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_activities_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text="活动时间： 2017-12-20至2017-12-23"
+        android:textSize="@dimen/text_12_sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/iv_item_activities"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:src="@mipmap/go" />
+
+    <View android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/color_gray_E2E2E2"
+        android:layout_below="@id/tv_item_activities_time"/>
+</RelativeLayout>

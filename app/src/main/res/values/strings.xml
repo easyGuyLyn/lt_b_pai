@@ -1,0 +1,1242 @@
+<resources>
+    <!--侧边栏-->
+    <string name="title_hall">彩票平台</string>
+    <string name="tab_lottery_hall">购彩大厅</string>
+    <string name="tab_lottery_record">开奖记录</string>
+    <string name="tab_note_record">投注记录</string>
+    <string name="tab_member_center">会员中心</string>
+
+    <string name="notice">公告</string>
+    <!--登录注册-->
+    <string name="title_name_activity_login">登录</string>
+    <string name="title_name_activity_register">注册</string>
+    <string name="foget_pwd">忘记密码?</string>
+    <string name="remeber_pwd">记住密码</string>
+    <string name="input_user_name">请输入您的用户名</string>
+    <string name="input_user_pwd">请输入您的用户密码</string>
+    <string name="setting_user_and_pwd">请设置您的用户名和密码</string>
+    <string name="register_user_hinit">4&#8211;16个字符，可以使用字母、数字、下划线</string>
+    <string name="register_pwd_hinit">6&#8211;16个字符，区分大小写</string>
+    <string name="register_confirm_pwd_hinit">请再次确认密码</string>
+    <string name="register_immediatly">立即注册</string>
+    <string name="register_protocal_tip">轻触上面“立即注册”按钮，即表示您同意</string>
+    <string name="register_protocal">《平台服务协议》</string>
+    <string name="register_user_lable">用户名</string>
+    <string name="register_pwd_lable">密码</string>
+    <string name="register_confirm_pwd_lable">确认密码</string>
+    <string name="validate_register_user">请输入帐号</string>
+    <string name="validate_register_pwd">请输入密码</string>
+    <string name="validate_register_confirm_pwd">请输入确认密码</string>
+    <string name="validate_register_pwd_not_same">两次输入密码不相同</string>
+    <string name="validate_register_regular_correct">帐号格式不正确</string>
+    <string name="validate_register_user_regular_correct">帐号位数不正确</string>
+    <string name="validate_register_pwd_regular_correct">密码位数不正确</string>
+    <string name="register_success">注册成功</string>
+
+
+    <!--webview-->
+    <string name="game_maintenance">正维护中&#8230;&#8230;&#8230;</string>
+    <string name="url_is_null">传入地址为空！</string>
+    <string name="imageUrlNil">图片地址为空</string>
+    <string name="saveImgFailed">图片保存失败</string>
+    <string name="saveImgSuccess">已保存到相册</string>
+    <string name="is_end_page">已是最后一页</string>
+
+    <!--加载刷洗-->
+    <string name="REFRESHING">正在刷新</string>
+    <string name="RELEASE_TO_REFRESH">松开刷新</string>
+    <string name="SWIPE_TO_REFRESH">点击刷新</string>
+    <string name="REFRESH_RETURNING">正在返回</string>
+    <string name="REFRESH_COMPLETE">刷新完成</string>
+    <string name="LOADING_MORE">正在加载更多</string>
+    <string name="RELEASE_TO_LOAD_MORE">松开加载更多</string>
+    <string name="SWIPE_TO_LOAD_MORE">点击加载更多</string>
+    <string name="LOAD_MORE_RETURNING">加载正在返回中</string>
+    <string name="LOAD_MORE_COMPLETE">加载更多完成</string>
+    <string name="NO_MORE_DATA">没有更多的数据</string>
+    <string name="no_data">暂无相关数据</string>
+
+    <!-- HttpCodeException -->
+    <string name="http_code_default">未知错误%1$d</string>
+    <string name="http_code_201">新资源被创建</string>
+    <string name="http_code_202">已接受处理请求但尚未完成</string>
+    <string name="http_code_204">资源为空</string>
+    <string name="http_code_301">资源的URI被更新</string>
+    <string name="http_code_400">坏请求</string>
+    <string name="http_code_401">禁止访问</string>
+    <string name="http_code_404">资源不存在</string>
+    <string name="http_code_406">服务端不支持所需表示</string>
+    <string name="http_code_409">通用冲突</string>
+    <string name="http_code_412">前置条件失败</string>
+    <string name="http_code_415">接受到的表示不受支持</string>
+    <string name="http_code_500">服务器错误</string>
+    <string name="http_code_503">服务当前无法处理请求</string>
+    <string name="http_code_608">重复下注(无须提示用户)</string>
+    <string name="http_code_701">请求的token为空或已失效</string>
+
+    <string name="loading_tip">加载中…</string>
+
+    <!--个人中心-->
+    <!--账户 昵称 id-->
+    <string name="mine_account">账户:</string>
+    <string name="mine_name">昵称:</string>
+    <string name="mine_name_id">I        D:</string>
+    <string name="mine_account_balance">账户余额</string>
+    <string name="mine_recharge">充值</string>
+    <string name="mine_withdraw">提现</string>
+    <string name="mine_login_register">登录/注册</string>
+
+    <string name="mine_user_account">账户余额</string>
+
+    <!--列表-->
+    <string name="mine">我的</string>
+    <string name="mine_game_record">游戏记录</string>
+    <string name="mine_game_record_bootom">查看所参与的游戏记录</string>
+    <string name="mine_security_center">安全中心</string>
+    <string name="mine_security_center_bootom">保护您的账户安全</string>
+    <string name="mine_account_details">账变明细</string>
+    <string name="mine_account_details_bootom">查看账户自己变动明细</string>
+    <string name="mine_recharge_record">存取记录</string>
+    <string name="mine_recharge_record_bootom">查看所有充值和提现订单</string>
+    <string name="mine_recommend_friends">团队管理</string>
+    <string name="mine_recommend_friends_bootom">赢取现金奖励</string>
+    <string name="mine_wallet_management">钱包管理</string>
+    <string name="mine_wallet_management_bootom">用户的资金账户管理</string>
+    <string name="mine_message_center">公告</string>
+    <string name="mine_message_center_boootom">查看公告内容</string>
+    <string name="mine_feedback">意见与反馈</string>
+    <string name="mine_feedback_bootom">解答各种问题</string>
+    <string name="mine_share_gifts">分享礼金</string>
+    <string name="mine_share_gifts_bootom">查看奖励金额</string>
+    <string name="mine_contact_custom_service">联系客服</string>
+    <string name="mine_contact_custom_service_bootom">解答各种问题</string>
+
+    <!-- 投注记录 -->
+    <string name="note_tab_his">历史报表</string>
+    <string name="note_tab_chaseNum">追号记录</string>
+    <string name="note_tab_cancelOrder">撤单记录</string>
+    <string name="note_status_all">全部</string>
+    <string name="note_status_unLottery">未开奖</string>
+    <string name="note_status_winning">已中奖</string>
+    <string name="note_status_lost">未中奖</string>
+    <string name="note_status_is_cancle">已撤单</string>
+    <string name="note_status_is_cancle_back">已撤销</string>
+    <string name="note_status_cancelList">撤单</string>
+    <string name="note_status_cancelList1">撤销</string>
+    <string name="chaseNum_status_donging">进行中</string>
+    <string name="chaseNum_status_finish">已完成</string>
+    <string name="main_cancel">主动撤单</string>
+    <string name="sys_cancel">系统撤单</string>
+    <string name="prized_stop">中奖停追</string>
+    <string name="note_theDayBefore">前一天</string>
+    <string name="note_theDayAfter">后一天</string>
+    <string name="note_status_note">投注</string>
+    <string name="note_status_pl">盈亏</string>
+    <string name="note_status_last">余额</string>
+    <string name="note_status_balance">金额</string>
+    <string name="note_status_status">状态</string>
+    <string name="note_status_time">时间</string>
+    <string name="account_yinKui">盈亏:%1$s</string>
+    <string name="account_cancelOrder">撤单:%1$s</string>
+    <string name="total">合计:</string>
+    <string name="account_balance">账户余额:</string>
+    <string name="winning_amount">中奖金额:</string>
+    <string name="note_total">投注总额:</string>
+    <string name="yinKui">&#160;盈&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;亏:</string>
+    <string name="yinKui1">盈&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;亏:</string>
+    <string name="note_avail">有效投注额:</string>
+    <string name="rebate">&#160;返&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;点:</string>
+    <string name="rebate1">返&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;点:</string>
+    <string name="unopen_prize_amount">未开奖金额:</string>
+    <string name="cancel_order">&#160;撤&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;单:</string>
+    <string name="cancel_order_back">&#160;撤&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;销:</string>
+    <string name="note_num">投注号码:</string>
+    <string name="open_prize_num">开奖号码:</string>
+    <string name="note_time">投注时间:</string>
+    <string name="betCount_multiple">注数/倍数:</string>
+    <string name="note_idNum">注单编号:</string>
+    <string name="payout">中奖金额:</string>
+    <string name="bonusModel">注式/模式:</string>
+    <string name="betAmount">投注金额:</string>
+    <string name="idNum">编&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;号:</string>
+    <string name="avalPrized">可中奖项</string>
+    <string name="againBet">再次下注</string>
+    <string name="b_cancel_order">撤单</string>
+    <string name="name_note">名称</string>
+    <string name="name_prize">奖项</string>
+    <string name="name_rebate">返点</string>
+    <string name="name_odd">赔率</string>
+    <string name="note_detail">注单详情</string>
+    <string name="note_charse_num_status">状态</string>
+
+    <!--购彩大厅-->
+    <string name="login_or_register">注册/登录</string>
+    <string name="lottery_platform">彩票平台</string>
+    <string name="lottery_low">低频彩</string>
+    <string name="lottery_high">高频彩</string>
+
+    <!--设置界面-->
+    <string name="setting_title">设置</string>
+    <string name="setting_account_information">账号资料</string>
+    <string name="setting_push_and_remind">推送和提醒</string>
+    <string name="setting_shake_shake_election">摇一摇机选</string>
+    <string name="setting_sound">声音</string>
+    <string name="setting_lock_screen_gesture">锁屏手势</string>
+    <string name="setting_winning_animation">中奖动画</string>
+    <string name="setting_login_out">退出登录</string>
+
+
+    <!--账户资料界面-->
+    <string name="account_title">账号资料</string>
+    <string name="account_avatar">头像</string>
+    <string name="account_name">昵称</string>
+    <string name="account_account">账号</string>
+    <string name="account_ID">ID</string>
+    <string name="account_change_passwold">登录密码</string>
+    <string name="account_funding_passwold">资金密码</string>
+    <string name="account_lock_screen_gesture">锁屏手势</string>
+    <string name="account_device_lock">设备锁</string>
+    <string name="account_setting">设置</string>
+
+    <!--充值界面-->
+    <string name="pay_title">充值</string>
+
+    <!--客服界面-->
+    <string name="custom_contans">客服</string>
+    <string name="custom_contans_wx">微信客服</string>
+    <string name="custom_contans_qq">QQ客服</string>
+    <string name="not_set_service">抱歉，暂未启用在线客服！</string>
+
+    <!--安全中心-->
+    <string name="securitycenter">安全中心</string>
+    <string name="securitycenter_text">您的账号信息,正在享受全面的安全防护</string>
+    <string name="securitycenter_funding_password">资金密码</string>
+    <string name="securitycenter_device_lock">设备锁</string>
+    <string name="securitycenter_lock_screen_gesture">锁屏手势</string>
+    <string name="securitycenter_update">修改</string>
+
+
+    <!--分享礼金-->
+    <string name="sharegifs_title">分享礼金</string>
+    <string name="sharegifs_username">用戶</string>
+    <string name="sharegifs_effective_betting_amount">有效投注额</string>
+    <string name="sharegifs_gift">礼金</string>
+    <string name="sharegifs_status">状态</string>
+
+    <!--确定-->
+    <string name="determine">确定</string>
+    <string name="updata_nickname">修改昵称</string>
+
+    <!--修改密码-->
+    <string name="confirm_password">修改密码</string>
+
+    <string name="enter_old_password">输入旧密码:</string>
+    <string name="please_enter_old_password">请输入旧密码</string>
+
+    <string name="enter_new_password">输入新密码:</string>
+    <string name="please_enter_new_password">请输入新密码</string>
+
+    <string name="confirm_new_password">确认新密码:</string>
+    <string name="please_confirm_new_password">请确认新密码</string>
+
+
+    <string name="input_old_psw">密码为空或与原密码不符,请重新输入</string>
+    <string name="input_config_psw">请输入确认密码</string>
+    <string name="newp">新密码与确认密码不符合,请重新输入</string>
+
+
+    <!--提交-->
+    <string name="submit">提交</string>
+
+    <!--忘记密码-->
+    <string name="forgetPassword">忘记密码?</string>
+    <string name="title_name_lottery_rcd_fragment">开奖结果</string>
+    <string name="lottery_open_message_push_lottery_rcd_fragment">开奖推送</string>
+
+
+    <!--资金密码设置-->
+    <string name="funding_passwold">资金密码设置</string>
+    <string name="funding_passwold_text">请设置资金密码,建议不要与银行卡取款密码相同</string>
+
+    <!--活动优惠公告-->
+    <string name="promo">优惠</string>
+    <string name="promo_time">活动时间：%1$s 至 %2$s</string>
+    <string name="notice_time">公告时间：%1$s</string>
+    <string name="activities_activity">精彩活动</string>
+    <string name="activities_detal_activity">活动详情</string>
+
+    <!--ssc-->
+    <string name="no.">期号</string>
+    <string name="which_periods">第%1$s期</string>
+    <string name="which_periods_">%1$s期</string>
+    <string name="cq_a_which_periods">重庆时时彩A盘 第%1$s期</string>
+    <string name="cq_b_which_periods">重庆时时彩B盘 第%1$s期</string>
+    <string name="award_results">开奖结果</string>
+    <string name="not_bet">封单中</string>
+    <string name="lottery_stop_sale">封盘中</string>
+    <string name="stop">截止</string>
+    <string name="ten">十位</string>
+    <string name="a_bit">个位</string>
+    <string name="mantissa">尾数</string>
+    <string name="view_data_max">最多可查看120期数据</string>
+    <string name="big">大</string>
+    <string name="small">小</string>
+    <string name="single">单</string>
+    <string name="double_">双</string>
+    <string name="zusan">组三</string>
+    <string name="zuliu">组六</string>
+    <string name="dragon">龙</string>
+    <string name="tiger">虎</string>
+    <string name="he">和</string>
+    <string name="all_bets">共%1$s注</string>
+    <string name="total_money">投注%1$s元</string>
+    <string name="getexpect_error">后台数据错误，退出进入重试</string>
+
+    <!--消息中心-->
+
+    <string name="messagecenter_left_bnt_text">公告</string>
+    <string name="messagecenter_right_bnt_text">站內信</string>
+    <string name="no_lottery_official_website">官网无开奖</string>
+    <string name="message_count_text">  官网无开奖官网无开奖官网无开奖官网无开奖官网无开奖官网无开奖官网无开奖,</string>
+
+    <!--游戏记录-->
+
+    <string name="game_record">游戏记录</string>
+    <string name="game_record_species">彩种</string>
+    <string name="game_record_betting_total">投注总额</string>
+    <string name="game_record_winning_amount">中奖金额</string>
+    <string name="game_record_profit_and_loss">盈亏</string>
+    <string name="game_record_effective_amount_balance">账户余额</string>
+
+
+    <string name="game_record_effective_betting">有效投注</string>
+    <string name="game_record_rebate">返点</string>
+    <string name="game_record_unpaid_amount">未开奖金额</string>
+    <string name="game＿record_withdrawal">撤单</string>
+
+
+    <!--账单明细-->
+    <string name="bill_details">账变明细</string>
+    <string name="bill_details_in_out">存取记录</string>
+    <string name="bill_details_all">全部</string>
+    <string name="bill_details_depistis">存款</string>
+    <string name="bill＿details_withdrawl">取款</string>
+    <string name="bill_details_gifs">礼金</string>
+
+    <!--所有-->
+    <string name="bill_details_all＿type">类型</string>
+    <string name="bill_details_all_all">全部</string>
+    <string name="bill_details_all_balance">余额</string>
+    <string name="bill_details_all_time">时间</string>
+
+    <!--bootom-->
+    <string name="bill_details_all＿betting_total">投注总额</string>
+    <string name="bill_details_all_winning_amount">中奖金额</string>
+    <string name="bill_details_all_total_withdrawals_chedan">撤单总额</string>
+    <string name="bill_details_all_rebate_total">返点总额</string>
+    <string name="bill_details_all_recharge_amount">充值总额</string>
+    <string name="bill_details_all_total_withdrawals_tixian">提现总额</string>
+    <string name="bill_details_all_total_gifs">礼金总额</string>
+    <string name="bill_details_all__into_total">转入总额</string>
+    <string name="bill_details_all_out_total">转出总额</string>
+
+
+    <string name="bill_details_anti_water">反水礼金</string>
+    <string name="bill_details_share_gifs">分享礼金</string>
+    <string name="bill_details_all_VIP_gifs">VIP礼金</string>
+    <string name="bill_details_all_other_gifs">其他礼金</string>
+
+    <!--充值记录-->
+    <string name="recharge_record">充值</string>
+    <string name="recharge_record_type">类型</string>
+
+    <!--綁定銀行卡-->
+    <string name="band_card_prompt">溫馨提示</string>
+    <string name="band_card_binding_bank_card">绑定银行卡</string>
+    <string name="band_card_binding_bank_card_sucess">恭喜绑定银行卡成功</string>
+    <!--银行卡列表-->
+    <string name="bank_list">银行卡列表</string>
+    <string name="input_name">请输入您的姓名</string>
+    <string name="input_card">请输入您的卡号</string>
+    <string name="certifiedbankcard">请确定银行卡信息,进行验证</string>
+
+
+    <string name="the_expect">第%1$s期</string>
+    <string name="the_expect_note_end">第%1$s期投注截止：</string>
+    <string name="machine_selection">机选</string>
+    <string name="clear_all">清空</string>
+    <string name="tv_setting_special">元</string>
+    <string name="tv_setting_horn">角</string>
+    <string name="tv_setting_branch">分</string>
+    <string name="times">倍</string>
+    <string name="betting">投注</string>
+    <string name="recent_awards">近期开奖</string>
+    <string name="my_bet">我的投注</string>
+    <string name="my_chase_number">我的追号</string>
+    <string name="trend_chart">走势图</string>
+    <string name="lzt_pop">路纸图</string>
+    <string name="wf_pop">玩法说明</string>
+    <string name="bet_state">距%1$s期截止：</string>
+    <string name="clear_list">清空列表</string>
+    <string name="comput_select">机选一注</string>
+    <string name="service_agreement">平台服务协议</string>
+    <string name="all_bet">共%1$s注,投注%2$s元</string>
+    <string name="confirm_bet">确认投注</string>
+    <string name="small_helper">小助手</string>
+    <string name="bet_info_1">共%1$s注,单注最多中奖%2$s元\n</string>
+    <!--<string name="bet_info_2">投注%1$s元,盈利%2$s元</string>-->
+    <string name="bet_info_2">投注%1$s元</string>
+    <string name="bet_info_3">,返点%1$s元</string>
+    <!--注单-->
+    <string name="order_result">投注结果</string>
+    <string name="shop_bet_info">%1$s  %2$s注 %3$s倍  %4$s元</string>
+    <string name="the_order_info">共%1$s单,%2$s元</string>
+    <string name="the_times_money">%1$s倍 %2$s元</string>
+    <string name="the_bets_money">共%1$s注,共%2$s元</string>
+    <string name="note_number">注单编号：%1$s</string>
+    <string name="order_number_">单 &#160; &#160; &#160; &#160; &#160;号：%1$s</string>
+
+    <!--路纸图-->
+    <string name="way_paper">路纸图</string>
+    <string name="which_periods_stop">距%1$s期%2$s:</string>
+    <string name="two_miss_top">两面长龙排行</string>
+    <string name="two_way_paper">两面路纸图</string>
+    <string name="all_dragon_and_tiger">总和-龙虎</string>
+    <string name="all_big_small">总和-大小</string>
+    <string name="all_single_double">总和-单双</string>
+    <string name="first_big_small">第一球-大小</string>
+    <string name="first_single_double">第一球-单双</string>
+    <string name="second_big_small">第二球-大小</string>
+    <string name="second_single_double">第二球-单双</string>
+    <string name="third_big_small">第三球-大小</string>
+    <string name="third_single_double">第三球-单双</string>
+    <string name="fourth_big_small">第四球-大小</string>
+    <string name="fourth_single_double">第四球-单双</string>
+    <string name="fifth_big_small">第五球-大小</string>
+    <string name="fifth_single_double">第五球-单双</string>
+
+    <!--走势图-->
+    <string name="trend_chart_set">走势图设置</string>
+    <string name="periods_number">期数：</string>
+    <string name="array">排列：</string>
+    <string name="broken_line">折线：</string>
+    <string name="omit">遗漏：</string>
+    <string name="statistics">统计：</string>
+    <!--k3折线图-->
+    <string name="open_number">开奖号码</string>
+    <string name="open_num">开奖号</string>
+    <string name="number">号码</string>
+    <string name="which_30">30期</string>
+    <string name="which_50">50期</string>
+    <string name="which_100">100期</string>
+    <string name="cold_hot">冷热</string>
+    <!--玩法-->
+    <string name="play_explain_title">玩法说明</string>
+
+    <!--日历-->
+    <string name="tip">双击可查询所选日期记录,选择不同的日期可查询所选范围的记录</string>
+    <string name="tip_ps">(备注:手机端只记录31天的数据)</string>
+    <string name="title_calendar">日期选择</string>
+    <string name="Sundays">日</string>
+    <string name="Monday">一</string>
+    <string name="Tuesday">二</string>
+    <string name="Wednesday">三</string>
+    <string name="Thursday">四</string>
+    <string name="Friday">五</string>
+    <string name="Saturday">六</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="verification">立即验证</string>
+    <string name="modify_information">修改信息</string>
+
+    <string name="certified_bank_card">认证银行卡</string>
+    <string name="my_card">我的银行卡</string>
+    <string name="add_card">添加银行卡</string>
+    <!--钱包管理-->
+    <string name="bank_card_managerment">银行卡管理</string>
+
+    <string name="money_managerment">钱包管理</string>
+    <!--意見与反馈-->
+    <string name="feekback">意见与反馈</string>
+
+    <string name="please_chose_question">请选择你所遇到的问题</string>
+    <string name="flash_back">闪退</string>
+    <string name="caton">卡顿</string>
+    <string name="black_screen">黑屏</string>
+    <string name="crashed">死机</string>
+    <string name="interface_dislocation">界面错位</string>
+    <string name="other_abnormal_feedback">其他异常反馈</string>
+
+    <string name="feekback_next">意见与反馈</string>
+    <string name="data_time">时间</string>
+
+    <string name="hand_input">手动输入</string>
+    <string name="clearWord">清</string>
+    <string name="tz">投注</string>
+    <string name="reset">重置</string>
+    <string name="please_write_money">请填写金额</string>
+    <string name="zs_default">共0注&#160;&#160; 0元</string>
+    <string name="ys_default">最大可中奖&#160;&#160; 0元</string>
+    <string name="five_status">五星形态</string>
+
+    <!--重庆时时彩B盘-->
+    <string name="bv_97"></string>
+    <string name="bv_840"></string>
+    <string name="bv_9.85"></string>
+    <string name="bv_1.985"></string>
+    <string name="bv_1.98"></string>
+    <string name="bv_2.07"></string>
+    <string name="bv_3_03"></string>
+    <string name="bv_71"></string>
+    <string name="bv_14.8"></string>
+    <string name="bv_8.1"></string>
+    <string name="bv_6.2"></string>
+    <string name="bv_5.4"></string>
+    <string name="bv_5.2"></string>
+    <string name="bv_14.4"></string>
+    <string name="min_5">请投注5个号码以上</string>
+    <string name="min_4_8">请投注4-8个号码</string>
+    <string name="min_1">请投注至少一个号码</string>
+    <string name="wei_2">请投注2个位数的号码</string>
+    <string name="wei_3">请投注3个位数的号码</string>
+    <string name="wei_n">请至少选择一组号码</string>
+    <string name="wei_just_one">只能选择一组号码</string>
+    <string name="sure_5">请投注5个号码</string>
+    <string name="sure_4">请投注4个号码</string>
+    <string name="sure_3">请投注3个号码</string>
+    <string name="sure_2">请投注2个号码</string>
+    <string name="sure_1">请投注1个号码</string>
+    <string name="sum_note">共%1$s注&#160;&#160; %2$s&#160;元</string>
+    <string name="max_prized">单注最大可中奖&#160;%1$s&#160;元</string>
+
+    <string name="ww">万位</string>
+    <string name="qw">千位</string>
+    <string name="bw">百位</string>
+    <string name="sw">十位</string>
+    <string name="gw">个位</string>
+    <string name="zh">总和</string>
+
+    <string name="wq">万千</string>
+    <string name="wb">万百</string>
+    <string name="ws">万十</string>
+    <string name="wg">万个</string>
+    <string name="qb">千百</string>
+    <string name="qs">千十</string>
+    <string name="qg">千个</string>
+    <string name="bs">百十</string>
+    <string name="bg">百个</string>
+    <string name="sg">十个</string>
+
+    <string name="wqb">万千百</string>
+    <string name="wqs">万千十</string>
+    <string name="wqg">万千个</string>
+    <string name="wbs">万百十</string>
+    <string name="wbg">万百个</string>
+    <string name="wsg">万十个</string>
+    <string name="qbs">千百十</string>
+    <string name="qbg">千百个</string>
+    <string name="qsg">千十个</string>
+    <string name="bsg">百十个</string>
+
+    <string name="q5yzzh">全五一字组合</string>
+    <string name="quan3yzzh">全三</string>
+    <string name="q3yzzh">前三一字组合</string>
+    <string name="z3yzzh">中三一字组合</string>
+    <string name="h3yzzh">后三一字组合</string>
+
+    <string name="q3zx3">前三组选三</string>
+    <string name="z3zx3">中三组选三</string>
+    <string name="h3zx3">后三组选三</string>
+
+    <string name="q3zx6">前三组选六</string>
+    <string name="z3zx6">中三组选六</string>
+    <string name="h3zx6">后三组选六</string>
+
+    <string name="q3kd">前三跨度</string>
+    <string name="z3kd">中三跨度</string>
+    <string name="h3kd">后三跨度</string>
+
+    <!--玩法种类-->
+    <string name="cq_ssc_b">时时彩B盘</string>
+    <string name="SZP">数字盘</string>
+    <string name="SM">双面</string>
+    <string name="YZDW">一字定位</string>
+    <string name="RZDW">二字定位</string>
+    <string name="SZDW">三字定位</string>
+    <string name="YZZH">一字组合</string>
+    <string name="ZXS">组选三</string>
+    <string name="ZXL">组选六</string>
+    <string name="KD">跨度</string>
+    <string name="LH">龙虎</string>
+    <!--玩法种类-->
+    <!--playCode-->
+    <string name="cqssc">cqssc</string>
+    <string name="one_digital">one_digital</string>
+    <string name="one_big_small">one_big_small</string>
+    <string name="one_single_double">one_single_double</string>
+    <string name="one_prime_combined">one_prime_combined</string>
+    <string name="one_combination">one_combination</string>
+    <string name="two_digital">two_digital</string>
+    <string name="two_combination">two_combination</string>
+    <string name="two_sum_single_double">two_sum_single_double</string>
+    <string name="three_digital">three_digital</string>
+    <string name="three_combination">three_combination</string>
+    <string name="five_sum_big_small">five_sum_big_small</string>
+    <string name="five_sum_single_double">five_sum_single_double</string>
+    <string name="dragon_tiger_tie">dragon_tiger_tie</string>
+    <string name="group_three">group_three</string>
+    <string name="group_six">group_six</string>
+    <string name="span">span</string>
+    <!--playCode..-->
+    <!--betCode-->
+    <string name="one_">one</string>
+    <string name="ten_">ten</string>
+    <string name="hundred">hundred</string>
+    <string name="thousand">thousand</string>
+    <string name="ten_thousand">ten_thousand</string>
+
+    <string name="ten_thousand_thousand">ten_thousand_thousand</string>
+    <string name="ten_thousand_hundred">ten_thousand_hundred</string>
+    <string name="ten_thousand_ten_">ten_thousand_ten</string>
+    <string name="ten_thousand_one_">ten_thousand_one</string>
+    <string name="thousand_hundred">thousand_hundred</string>
+    <string name="thousand_ten_">thousand_ten</string>
+    <string name="thousand_one_">thousand_one</string>
+    <string name="hundred_ten_">hundred_ten</string>
+    <string name="hundred_one_">hundred_one</string>
+    <string name="ten_one_">ten_one</string>
+
+    <string name="ten_thousand_thousand_hundred">ten_thousand_thousand_hundred</string>
+    <string name="ten_thousand_thousand_ten">ten_thousand_thousand_ten</string>
+    <string name="ten_thousand_thousand_one">ten_thousand_thousand_one</string>
+    <string name="ten_thousand_hundred_ten">ten_thousand_hundred_ten</string>
+    <string name="ten_thousand_hundred_one">ten_thousand_hundred_one</string>
+    <string name="ten_thousand_ten_one">ten_thousand_ten_one</string>
+    <string name="thousand_hundred_ten">thousand_hundred_ten</string>
+    <string name="thousand_hundred_one">thousand_hundred_one</string>
+    <string name="thousand_ten_one">thousand_ten_one</string>
+    <string name="hundred_ten_one">hundred_ten_one</string>
+
+    <string name="one_all_five">one_all_five</string>
+    <string name="one_first_three">one_first_three</string>
+    <string name="one_in_three">one_in_three</string>
+    <string name="one_after_three">one_after_three</string>
+
+    <string name="group3_first_three">group3_first_three</string>
+    <string name="group3_in_three">group3_in_three</string>
+    <string name="group3_after_three">group3_after_three</string>
+
+    <string name="group6_first_three">group6_first_three</string>
+    <string name="group6_in_three">group6_in_three</string>
+    <string name="group6_after_three">group6_after_three</string>
+
+    <string name="span_first_three">span_first_three</string>
+    <string name="span_in_three">span_in_three</string>
+    <string name="span_after_three">span_after_three</string>
+
+    <string name="five_sum">five_sum</string>
+    <!--betCode-->
+    <!--重庆时时彩B盘-->
+
+    <!--北京pk10 B盘-->
+    <string name="pk10_b_title">北京pk10B盘</string>
+    <string name="GYJ">冠亚军</string>
+    <string name="gj">冠军</string>
+    <string name="yj">亚军</string>
+    <string name="jj">季军</string>
+    <string name="dsm">第四名</string>
+    <string name="dwm">第五名</string>
+    <string name="dlm">第六名</string>
+    <string name="dqm">第七名</string>
+    <string name="dbm">第八名</string>
+    <string name="djm">第九名</string>
+    <string name="dshm">第十名</string>
+    <string name="gyjh">冠亚军和</string>
+    <string name="gyjhdsdx">冠亚军和-单双大小</string>
+
+    <!-- playCode -->
+    <string name="bjpk10">bjpk10</string>
+    <string name="xyft">xyft</string>
+    <string name="jspk10">jspk10</string>
+    <string name="pk10_digital">pk10_digital</string>
+    <string name="pk10_big_small">pk10_big_small</string>
+    <string name="pk10_single_double">pk10_single_double</string>
+    <string name="pk10_dragon_tiger">pk10_dragon_tiger</string>
+    <string name="champion_up_34">champion_up_34</string>
+    <string name="champion_up_56">champion_up_56</string>
+    <string name="champion_up_78">champion_up_78</string>
+    <string name="champion_up_910">champion_up_910</string>
+    <string name="champion_up_alone_11">champion_up_alone_11</string>
+    <string name="champion_up_alone_34">champion_up_alone_34</string>
+    <string name="champion_up_alone_56">champion_up_alone_56</string>
+    <string name="champion_up_alone_78">champion_up_alone_78</string>
+    <string name="champion_up_alone_910">champion_up_alone_910</string>
+    <string name="champion_up_big_small">champion_up_big_small</string>
+    <string name="champion_up_single_double">champion_up_single_double</string>
+    <string name="champion_up_half">champion_up_half</string>
+    <!--playCode-->
+    <!-- betCode-->
+    <string name="champion">champion</string>
+    <string name="runner_up">runner_up</string>
+    <string name="third_runner">third_runner</string>
+    <string name="fourth_place">fourth_place</string>
+    <string name="fifth_place">fifth_place</string>
+    <string name="sixth_place">sixth_place</string>
+    <string name="seventh_place">seventh_place</string>
+    <string name="eighth_place">eighth_place</string>
+    <string name="ninth_place">ninth_place</string>
+    <string name="tenth_place">tenth_place</string>
+    <string name="champion_up_sum">champion_up_sum</string>
+    <!--betCode-->
+    <!--北京pk10 B盘-->
+
+    <!--江苏快3 -->
+    <string name="js_k3_b">快3B盘</string>
+    <string name="DS">点数</string>
+    <string name="SJ">三军</string>
+    <string name="WS_QS">围骰/全骰</string>
+    <string name="CP">长牌</string>
+    <string name="DP">短牌</string>
+    <string name="hz">和值</string>
+    <string name="dx">大小</string>
+    <string name="ds">单双</string>
+    <string name="wx">五行</string>
+
+    <string name="jsk3">jsk3</string>
+    <!-- playCode -->
+    <string name="points_big_small">points_big_small</string>
+    <string name="points_single_double">points_single_double</string>
+    <string name="points_417">points_417</string>
+    <string name="points_516">points_516</string>
+    <string name="points_615">points_615</string>
+    <string name="points_714">points_714</string>
+    <string name="points_813">points_813</string>
+    <string name="points_912">points_912</string>
+    <string name="points_1011">points_1011</string>
+    <string name="dice">dice</string>
+    <string name="full_dice">full_dice</string>
+    <string name="long_card">long_card</string>
+    <string name="short_card">short_card</string>
+    <!-- playCode -->
+    <!-- betCode -->
+    <string name="points">points</string>
+    <!-- betCode -->
+    <!--江苏快3 -->
+    <!--幸运28 -->
+    <string name="XY28">幸运28</string>
+    <string name="xy28">xy28</string>
+    <string name="HH">混合</string>
+    <string name="HZTM">和值特码</string>
+    <string name="TMBS">特码包三</string>
+    <string name="xy28_sum3">xy28_sum3</string>
+    <string name="xy28_sum3_big_small">xy28_sum3_big_small</string>
+    <string name="xy28_sum3_single_double">xy28_sum3_single_double</string>
+    <string name="xy28_sum3_half">xy28_sum3_half</string>
+    <string name="xy28_sum3_extreme">xy28_sum3_extreme</string>
+    <string name="xy28_sum3_colour">xy28_sum3_colour</string>
+    <string name="xy28_three_same">xy28_three_same</string>
+    <string name="xy28_sum3_digital">xy28_sum3_digital</string>
+    <string name="xy28_sum3_digital_three">xy28_sum3_digital_three</string>
+    <!--幸运28 -->
+    <!--北京快乐8 -->
+    <string name="BJKL8">北京快乐8</string>
+    <string name="bjkl8">bjkl8</string>
+    <string name="x5">选5</string>
+    <string name="x4">选4</string>
+    <string name="x3">选3</string>
+    <string name="x2">选2</string>
+    <string name="x1">选1</string>
+    <string name="qt">其他</string>
+    <string name="bj8_hz">和值</string>
+    <string name="bj8_szxp">上中下盘</string>
+    <string name="bj8_qohp">奇偶和盘</string>
+    <string name="bj8_wx">五行</string>
+    <string name="keno_selection_one">keno_selection_one</string>
+    <string name="keno_selection_two">keno_selection_two</string>
+    <string name="keno_selection_three">keno_selection_three</string>
+    <string name="keno_selection_four">keno_selection_four</string>
+    <string name="keno_selection_five">keno_selection_five</string>
+    <string name="keno_selection">keno_selection</string>
+    <string name="keno_sum20_big_small">keno_sum20_big_small</string>
+    <string name="keno_sum20_single_double">keno_sum20_single_double</string>
+    <string name="keno_sum20">keno_sum20</string>
+    <string name="keno_up_down">keno_up_down</string>
+    <string name="keno_number">keno_number</string>
+    <string name="keno_odd_even">keno_odd_even</string>
+    <string name="keno_sum20_elements">keno_sum20_elements</string>
+    <!--北京快乐8 -->
+
+
+    <!--qt 福彩3D 排列三 -->
+    <string name="dingwei">定位</string>
+    <string name="zuhe">组合</string>
+    <string name="heshu">和数</string>
+    <string name="kuadu">跨度</string>
+    <string name="b_dw">百定位</string>
+    <string name="s_dw">十定位</string>
+    <string name="g_dw">个定位</string>
+    <string name="bs_dw">百十定位</string>
+    <string name="bg_dw">百个定位</string>
+    <string name="sg_dw">十个定位</string>
+    <string name="bsg_dw">百十个定位</string>
+    <string name="zh_yzzh">一字组合</string>
+    <string name="zh_rzzh">二字组合</string>
+    <string name="zh_szzh">三字组合</string>
+    <string name="zh_dyq">第一个投注码</string>
+    <string name="zh_drq">第二个投注码</string>
+    <string name="zh_dsq">第三个投注码</string>
+    <string name="bshs">百十和数</string>
+    <string name="bghs">百个和数</string>
+    <string name="bghssm">百个和数双面</string>
+    <string name="sghs">十个和数</string>
+    <string name="sghssm">十个和数双面</string>
+    <string name="bsghs">百十个和数</string>
+    <string name="bsghssm">百十个和数双面</string>
+    <string name="bshssm">百十和数双面</string>
+    <string name="bshsws">百十和数尾数</string>
+    <string name="bshswssm">百十和数尾数双面</string>
+    <string name="bghsws">百个和数尾数</string>
+    <string name="bghswssm">百个和数尾数双面</string>
+    <string name="sghsws">十个和数尾数</string>
+    <string name="sghswssm">十个和数尾数双面</string>
+    <string name="bsghsws">百十个和数尾数</string>
+    <string name="bsghswssm">百十个和数尾数双面</string>
+
+    <!--playCode-->
+    <string name="looteery_qt">pl3</string>
+    <string name="pl3_one_digital">pl3_one_digital</string>
+    <string name="pl3_one_big_small">pl3_one_big_small</string>
+    <string name="pl3_one_single_double">pl3_one_single_double</string>
+    <string name="pl3_one_prime_combined">pl3_one_prime_combined</string>
+    <string name="pl3_two_digital">pl3_two_digital</string>
+    <string name="pl3_three_digital">pl3_three_digital</string>
+    <string name="pl3_one_combination">pl3_one_combination</string>
+    <string name="pl3_two_combination">pl3_two_combination</string>
+    <string name="pl3_three_combination">pl3_three_combination</string>
+    <string name="pl3_sum2_digital">pl3_sum2_digital</string>
+    <string name="pl3_sum2_single_double">pl3_sum2_single_double</string>
+    <string name="pl3_sum2_mantissa">pl3_sum2_mantissa</string>
+    <string name="pl3_sum2_mantissa_big_small">pl3_sum2_mantissa_big_small</string>
+    <string name="pl3_sum2_mantissa_prime_combined">pl3_sum2_mantissa_prime_combined</string>
+    <string name="pl3_sum3_digital">pl3_sum3_digital</string>
+    <string name="pl3_sum3_mantissa">pl3_sum3_mantissa</string>
+    <string name="pl3_sum3_big_small">pl3_sum3_big_small</string>
+    <string name="pl3_sum3_single_double">pl3_sum3_single_double</string>
+    <string name="pl3_sum3_mantissa_big_small">pl3_sum3_mantissa_big_small</string>
+    <string name="pl3_sum3_mantissa_prime_combined">pl3_sum3_mantissa_prime_combined</string>
+    <string name="pl3_group_three">pl3_group_three</string>
+    <string name="pl3_group_six">pl3_group_six</string>
+    <!--playCode-->
+    <!--betCode-->
+    <string name="pl3_hundred">pl3_hundred</string>
+    <string name="pl3_ten">pl3_ten</string>
+    <string name="pl3_one">pl3_one</string>
+
+    <string name="pl3_hundred_大小">pl3_hundred</string>
+    <string name="pl3_ten_大小">pl3_ten</string>
+    <string name="pl3_one_大小">pl3_one</string>
+    <string name="pl3_hundred_ten_中2">pl3_hundred_ten</string>
+    <string name="pl3_hundred_one_中2">pl3_hundred_one</string>
+    <string name="pl3_ten_one_中2">pl3_ten_one</string>
+    <string name="pl3_hundred_ten_one_中3">pl3_hundred_ten_one</string>
+    <string name="pl3_all_three">pl3_all_three</string>
+    <string name="pl3_two_same_二同">pl3_two_same</string>
+    <string name="pl3_two_different_二不同">pl3_two_different</string>
+    <string name="pl3_three_same_三同">pl3_three_same</string>
+    <string name="pl3_three_group3_组三">pl3_three_group3</string>
+    <string name="pl3_three_group6_组六">pl3_three_group6</string>
+
+    <!--betCode-->
+
+
+    <!--推送和提醒／-->
+    <string name="first_punch_bonus">首充礼金 0.00</string>
+    <string name="push">推送和提醒</string>
+    <string name="Jackpot_push">中奖推送</string>
+    <string name="Lottery_push">开奖推送</string>
+    <string name="Jackpot_message">开启后,当有新的中奖订单,您会收到推送提醒。</string>
+    <string name="Jackpot_include">包括</string>
+    <string name="all_Species">全部彩种</string>
+    <string name="high_Species">高頻彩以外的彩种</string>
+
+    <string name="pk10_a_title">北京pk10A盘</string>
+    <string name="pk10_a_which_periods">北京PK10 第%1$s期</string>
+
+
+    <string name="feedback_text">请选择应用在何处发生异常</string>
+    <string name="feedback_game_center">游戏大厅</string>
+    <string name="feedback_game_activity">游戏界面</string>
+    <string name="feedback_lottery_record">开奖记录</string>
+    <string name="Lottery_purchase_record">购彩记录</string>
+    <string name="feedback_account_information">账号信息</string>
+    <string name="feedback_specific_problems">请描述具体问题</string>
+    <string name="feedback_failure_time">故障时间</string>
+    <string name="feedback_supplementary_content">补充内容</string>
+    <string name="feedback_enter_the_specific_content">请输入具体内容</string>
+    <string name="feedback_contact_information">联系方式</string>
+    <string name="feedback_contact_number">联系电话</string>
+    <string name="feedback_submit">提交</string>
+    <string name="select_recharge_money">存款</string>
+    <string name="rechange_way">选择存款方式</string>
+    <string name="rechange_type">充值类型</string>
+    <string name="rechange">充值金额(元)</string>
+    <string name="rechange_range">最低可充值100元，最高可充值49999元</string>
+    <string name="rechage_service_fee">(服务费:0.00元)</string>
+    <string name="btn_next">下一步</string>
+
+
+    <string name="tips">温馨提示</string>
+    <string name="tip_one">１.点击确认按钮后会自动生成一个银行卡信息界面</string>
+    <string name="tip_two">２.充值完成后,重新进app查余额</string>
+    <string name="tip_three">３.请在15分钟内完成充值</string>
+    <string name="recharge_study">充值教程</string>
+    <string name="please_select_time">请选择时间</string>
+    <string name="rechange_paltfom">平台充值</string>
+    <!--充值三级界面-->
+    <string name="initiate_rechange">发起充值</string>
+    <string name="wait_rechange">等待充值</string>
+    <string name="commit_pay">提交支付</string>
+    <string name="scucess_rechange">充值成功</string>
+
+    <string name="order_amount">订单金额</string>
+    <string name="service_fee">服务费</string>
+    <string name="actual_payment">实际支付</string>
+    <string name="Business_name">商户名称</string>
+    <string name="order_time">订单时间</string>
+    <string name="means_of_transaction">交易方式</string>
+    <string name="postscript">附言</string>
+    <string name="order_number">订单编号</string>
+    <string name="order_source">订单来源</string>
+    <string name="android_client">安卓客户端</string>
+    <string name="countdown_time">2018-03-8 15:14:30</string>
+
+    <!--重庆幸运农场-->
+    <string name="cqxync_title">重庆幸运农场</string>
+    <string name="first_ball">第一球</string>
+    <string name="second_ball">第二球</string>
+    <string name="third_ball">第三球</string>
+    <string name="fourth_ball">第四球</string>
+    <string name="fifth_ball">第五球</string>
+    <string name="sixth_ball">第六球</string>
+    <string name="seventh_ball">第七球</string>
+    <string name="eighth_ball">第八球</string>
+    <string name="dragon_and_tiger">龙虎</string>
+
+    <!--广东快乐十分-->
+    <string name="gdkl10_title">广东快乐十分</string>
+    <!--香港六合彩-->
+    <string name="lhc_num_odd">49</string>
+    <string name="lhc_z_num_odd">7.20</string>
+
+    <string name="lhc_word_simple_odd">1.985</string>
+    <string name="lhc_word_add_odd">3.8</string>
+    <string name="lhc_color_odd">2.7</string>
+
+    <string name="lhc_word_big">大</string>
+    <string name="lhc_word_small">小</string>
+    <string name="lhc_word_d">单</string>
+    <string name="lhc_word_s">双</string>
+    <string name="lhc_word_hd">合单</string>
+    <string name="lhc_word_hs">合双</string>
+    <string name="lhc_word_hbig">合大</string>
+    <string name="lhc_word_hsmall">合小</string>
+    <string name="lhc_word_bigd">大单</string>
+    <string name="lhc_word_bigs">大双</string>
+    <string name="lhc_word_smalld">小单</string>
+    <string name="lhc_word_smalls">小双</string>
+    <string name="lhc_word_wbig">尾大</string>
+    <string name="lhc_word_wsmall">尾小</string>
+
+    <string name="lhc_word_zbig">总大</string>
+    <string name="lhc_word_zsmall">总小</string>
+    <string name="lhc_word_zd">总单</string>
+    <string name="lhc_word_zs">总大双</string>
+
+    <string name="lhc_red_play">红波</string>
+    <string name="lhc_blue_play">蓝波</string>
+    <string name="lhc_green_play">绿波</string>
+
+    <string name="lhc_z1t_type">正1特</string>
+    <string name="lhc_z2t_type">正2特</string>
+    <string name="lhc_z3t_type">正3特</string>
+    <string name="lhc_z4t_type">正4特</string>
+    <string name="lhc_z5t_type">正5特</string>
+    <string name="lhc_z6t_type">正6特</string>
+
+    <string name="lch_bcode_z1t">positive_first</string>
+    <string name="lch_bcode_z2t">positive_second</string>
+    <string name="lch_bcode_z3t">positive_third</string>
+    <string name="lch_bcode_z4t">positive_fourth</string>
+    <string name="lch_bcode_z5t">positive_fifth</string>
+    <string name="lch_bcode_z6t">positive_sixth</string>
+
+
+    <!--玩法-->
+    <string name="lhc_play_type0">play_only</string>
+    <string name="lhc_play_type1">play_add</string>
+    <string name="lhc_play_type2">play_even</string>
+
+    <string name="lhc_tm">special</string>
+    <string name="lhc_tm_a_name">特码A</string>
+    <string name="lhc_tm_b_name">特码B</string>
+    <string name="lhc_tm_a_code">special_a</string>
+    <string name="lhc_tm_b_code">special_b</string>
+    <string name="lhc_tm_sx">special_zodiac</string>
+    <string name="lhc_tm_bo">special_digital</string>
+
+    <string name="lhc_zm">positive</string>
+    <string name="lhc_sum">seven_sum</string>
+    <string name="lhc_zmt_digital">positive_special_digital</string>
+    <string name="lhc_half">lhc_half_colour</string>
+    <string name="lhc_one_animal">lhc_one_zodiac</string>
+    <string name="lhc_special_animal">special_zodiac</string>
+
+    <string name="lhc_con_match_0">三全中</string>
+    <string name="lhc_con_match_1">三中二</string>
+    <string name="lhc_con_match_2">二全中</string>
+    <string name="lhc_con_match_3">二中特</string>
+    <string name="lhc_con_match_4">特串</string>
+    <string name="lhc_con_match_5">四全中</string>
+
+    <string name="lhc_con_match_code0">lhc_three_all_in</string>
+    <string name="lhc_con_match_code1">lhc_three_in_two</string>
+    <string name="lhc_con_match_code2">lhc_two_all_in</string>
+    <string name="lhc_con_match_code3">lhc_two_in_special</string>
+    <string name="lhc_con_match_code4">lhc_special_strand</string>
+    <string name="lhc_con_match_code5">lhc_four_all_in</string>
+
+    <string name="lhc_add_animal_code0">lhc_two_zodiac</string>
+    <string name="lhc_add_animal_code1">lhc_three_zodiac</string>
+    <string name="lhc_add_animal_code2">lhc_four_zodiac</string>
+    <string name="lhc_add_animal_code3">lhc_five_zodiac</string>
+    <string name="lhc_add_animal_code4">lhc_six_zodiac</string>
+    <string name="lhc_add_animal_code5">lhc_seven_zodiac</string>
+    <string name="lhc_add_animal_code6">lhc_eight_zodiac</string>
+    <string name="lhc_add_animal_code7">lhc_nine_zodiac</string>
+    <string name="lhc_add_animal_code8">lhc_ten_zodiac</string>
+    <string name="lhc_add_animal_code9">lhc_eleven_zodiac</string>
+
+
+    <string name="lhc_add_animal_name0">二肖</string>
+    <string name="lhc_add_animal_name1">三肖</string>
+    <string name="lhc_add_animal_name2">四肖</string>
+    <string name="lhc_add_animal_name3">五肖</string>
+    <string name="lhc_add_animal_name4">六肖</string>
+    <string name="lhc_add_animal_name5">七肖</string>
+    <string name="lhc_add_animal_name6">八肖</string>
+    <string name="lhc_add_animal_name7">九肖</string>
+    <string name="lhc_add_animal_name8">十肖</string>
+    <string name="lhc_add_animal_name9">十一肖</string>
+
+    <string name="lhc_animal_con_name0">二肖连</string>
+    <string name="lhc_animal_con_name1">三肖连</string>
+    <string name="lhc_animal_con_name2">四肖连</string>
+    <string name="lhc_animal_con_name3">五肖连</string>
+
+    <string name="lhc_animal_con_code0">lhc_two_zodiac_link</string>
+    <string name="lhc_animal_con_code1">lhc_three_zodiac_link</string>
+    <string name="lhc_animal_con_code2">lhc_four_zodiac_link</string>
+    <string name="lhc_animal_con_code3">lhc_five_zodiac_link</string>
+
+    <string name="lhc_mantissa_even_name0">二尾连</string>
+    <string name="lhc_mantissa_even_name1">三尾连</string>
+    <string name="lhc_mantissa_even_name2">四尾连</string>
+    <string name="lhc_mantissa_even_name3">五尾连</string>
+
+    <string name="lhc_mantissa_even_code0">lhc_two_mantissa_link</string>
+    <string name="lhc_mantissa_even_code1">lhc_three_mantissa_link</string>
+    <string name="lhc_mantissa_even_code2">lhc_four_mantissa_link</string>
+    <string name="lhc_mantissa_even_code3">lhc_five_mantissa_link</string>
+
+
+    <string name="lhc_un_match_name0">五不中</string>
+    <string name="lhc_un_match_name1">六不中</string>
+    <string name="lhc_un_match_name2">七不中</string>
+    <string name="lhc_un_match_name3">八不中</string>
+    <string name="lhc_un_match_name4">九不中</string>
+    <string name="lhc_un_match_name5">十不中</string>
+    <string name="lhc_un_match_name6">十一不中</string>
+    <string name="lhc_un_match_name7">十二不中</string>
+
+    <string name="lhc_un_match_code0">lhc_five_no_in</string>
+    <string name="lhc_un_match_code1">lhc_six_no_in</string>
+    <string name="lhc_un_match_code2">lhc_seven_no_in</string>
+    <string name="lhc_un_match_code3">lhc_eight_no_in</string>
+    <string name="lhc_un_match_code4">lhc_nine_no_in</string>
+    <string name="lhc_un_match_code5">lhc_ten_no_in</string>
+    <string name="lhc_un_match_code6">lhc_eleven_no_in</string>
+    <string name="lhc_un_match_code7">lhc_twelve_no_in</string>
+
+
+    <!--重庆幸运农场龙虎格斗-->
+    <string name="D1vsT2">龙1vs虎２</string>
+    <string name="D1vsT3">龙1vs虎３</string>
+    <string name="D1vsT4">龙1vs虎４</string>
+    <string name="D1vsT5">龙1vs虎５</string>
+    <string name="D1vsT6">龙1vs虎６</string>
+    <string name="D1vsT7">龙1vs虎７</string>
+    <string name="D1vsT8">龙1vs虎８</string>
+
+    <string name="D2vsT3">龙2vs虎3</string>
+    <string name="D2vsT4">龙2vs虎4</string>
+    <string name="D2vsT5">龙2vs虎5</string>
+    <string name="D2vsT6">龙2vs虎6</string>
+    <string name="D2vsT7">龙2vs虎7</string>
+    <string name="D2vsT8">龙2vs虎8</string>
+
+    <string name="D3vsT4">龙3vs虎4</string>
+    <string name="D3vsT5">龙3vs虎5</string>
+    <string name="D3vsT6">龙3vs虎6</string>
+    <string name="D3vsT7">龙3vs虎7</string>
+    <string name="D3vsT8">龙3vs虎8</string>
+
+    <string name="D4vsT5">龙4vs虎5</string>
+    <string name="D4vsT6">龙4vs虎6</string>
+    <string name="D4vsT7">龙4vs虎7</string>
+    <string name="D4vsT8">龙4vs虎8</string>
+
+    <string name="D5vsT6">龙5vs虎6</string>
+    <string name="D5vsT7">龙5vs虎7</string>
+    <string name="D5vsT8">龙5vs虎8</string>
+
+    <string name="D6vsT7">龙6vs虎7</string>
+    <string name="D6vsT8">龙6vs虎8</string>
+
+    <string name="D7vsT8">龙7vs虎8</string>
+    <!--btcode-->
+
+    <string name="sfc_dragon_tiger_12">sfc_dragon_tiger_12</string>
+    <string name="sfc_dragon_tiger_13">sfc_dragon_tiger_13</string>
+    <string name="sfc_dragon_tiger_14">sfc_dragon_tiger_14</string>
+    <string name="sfc_dragon_tiger_15">sfc_dragon_tiger_15</string>
+    <string name="sfc_dragon_tiger_16">sfc_dragon_tiger_16</string>
+    <string name="sfc_dragon_tiger_17">sfc_dragon_tiger_17</string>
+    <string name="sfc_dragon_tiger_18">sfc_dragon_tiger_18</string>
+
+    <string name="sfc_dragon_tiger_23">sfc_dragon_tiger_23</string>
+    <string name="sfc_dragon_tiger_24">sfc_dragon_tiger_24</string>
+    <string name="sfc_dragon_tiger_25">sfc_dragon_tiger_25</string>
+    <string name="sfc_dragon_tiger_26">sfc_dragon_tiger_26</string>
+    <string name="sfc_dragon_tiger_27">sfc_dragon_tiger_27</string>
+    <string name="sfc_dragon_tiger_28">sfc_dragon_tiger_28</string>
+
+    <string name="sfc_dragon_tiger_34">sfc_dragon_tiger_34</string>
+    <string name="sfc_dragon_tiger_35">sfc_dragon_tiger_35</string>
+    <string name="sfc_dragon_tiger_36">sfc_dragon_tiger_36</string>
+    <string name="sfc_dragon_tiger_37">sfc_dragon_tiger_37</string>
+    <string name="sfc_dragon_tiger_38">sfc_dragon_tiger_38</string>
+
+    <string name="sfc_dragon_tiger_45">sfc_dragon_tiger_45</string>
+    <string name="sfc_dragon_tiger_46">sfc_dragon_tiger_46</string>
+    <string name="sfc_dragon_tiger_47">sfc_dragon_tiger_47</string>
+    <string name="sfc_dragon_tiger_48">sfc_dragon_tiger_48</string>
+
+    <string name="sfc_dragon_tiger_56">sfc_dragon_tiger_56</string>
+    <string name="sfc_dragon_tiger_57">sfc_dragon_tiger_57</string>
+    <string name="sfc_dragon_tiger_58">sfc_dragon_tiger_58</string>
+
+    <string name="sfc_dragon_tiger_67">sfc_dragon_tiger_67</string>
+    <string name="sfc_dragon_tiger_68">sfc_dragon_tiger_68</string>
+
+    <string name="sfc_dragon_tiger_78">sfc_dragon_tiger_78</string>
+
+    <!--重庆幸运-->
+
+    <string name="sfc_dragon_tiger">sfc_dragon_tiger</string>
+    <string name="cqxync">cqxync</string>
+    <string name="gdkl10">gdkl10</string>
+    <string name="sum">总和</string>
+    <string name="sfc_big_small">sfc_big_small</string>
+
+    <string name="sfc_single_double">sfc_single_double</string>
+
+    <string name="sfc_mantissa_big_small">sfc_mantissa_big_small</string>
+
+    <string name="sfc_sum_single_double">sfc_sum_single_double</string>
+
+    <string name="sfc_sum8_big_small">sfc_sum8_big_small</string>
+
+
+    <string name="sfc_sum8_single_double">sfc_sum8_single_double</string>
+    <string name="sfc_sum8_mantissa_big_small">sfc_sum8_mantissa_big_small</string>
+
+
+    <string name="sfc_first">sfc_first</string>
+
+    <string name="sfc_second">sfc_second</string>
+    <string name="sfc_third">sfc_third</string>
+    <string name="sfc_fourth">sfc_fourth</string>
+    <string name="sfc_fifth">sfc_fifth</string>
+    <string name="sfc_sixth">sfc_sixth</string>
+
+    <string name="sfc_seventh">sfc_seventh</string>
+    <string name="sfc_eighth">sfc_eighth</string>
+    <string name="sfc_sum8">sfc_sum8</string>
+
+    <string name="sfc_digital">sfc_digital</string>
+
+    <string name="diot_must_more_than_six">连接个数不能小于6</string>
+    <string name="please_reset">两次输入不一致，请重新设置！</string>
+    <string name="setting_succeed">设置成功</string>
+    <string name="lock_code_error">手势密码错误</string>
+    <string name="lock_setting_code">设置密码</string>
+    <string name="lock_welcomne">欢迎</string>
+    <string name="set_before_code">请输入原密码</string>
+    <string name="lock_code_plz_commit">请确认</string>
+    <string name="lock_commit_succeed">验证成功</string>
+    <string name="Network_Connection_timeout">网络连接超时</string>
+    <string name="no_network">网络中断，请检查您的网络状态</string>
+    <string name="email_box">信箱</string>
+    <string name="edit_msg">编辑</string>
+    <string name="real_name">真实姓名</string>
+    <string name="update_real_name">修改真实姓名</string>
+    <string name="team_manager">团队管理</string>
+    <string name="team_about">团队总览</string>
+
+    <string name="rcd_keno_sum_value">和值: %1$s</string>
+    <string name="bjkl8_chart_hm">号码</string>
+    <string name="mine_mail">邮箱</string>
+    <string name="mail_mail_tip">查看收发邮件</string>
+    <string name="receive_mail_box">收件箱</string>
+    <string name="send_mail_box">发件箱</string>
+    <string name="no_more_data">无更多数据了~</string>
+    <string name="msgAnn_detail">公告详情</string>
+    <string name="mail_all">全部</string>
+    <string name="mail_readed">已读</string>
+    <string name="mail_unread">未读</string>
+    <string name="click_refresh">点击重试</string>
+    <string name="mail_choose_all">全选</string>
+    <string name="delete">删除</string>
+    <string name="must_choose_datas">请选择一定数据~</string>
+    <string name="action_success">操作成功</string>
+    <string name="action_faliure">操作失败</string>
+    <string name="send_msg">发消息</string>
+    <string name="receiver_mail">收件人:</string>
+    <string name="sender_mail">发件人:</string>
+    <string name="type_mail">类型:</string>
+    <string name="createTime_mail">时间:</string>
+    <string name="content_mail">内容:</string>
+    <string name="reply_mail">回复</string>
+    <string name="reply_mail_right_now">立即回复</string>
+    <string name="send_mail_right_now">立即发送</string>
+    <string name="mail_detail">信件详情</string>
+    <string name="mail_add_msg">新增消息</string>
+    <string name="mail_title">标题:</string>
+    <string name="relay_content">回复内容:</string>
+    <string name="mail_please_input">请输入内容</string>
+    <string name="please_input_title">请输入标题</string>
+    <string name="must_input_title">请输入标题</string>
+    <string name="must_input_content">请输入内容</string>
+    <string name="content_toolong">内容字数过长</string>
+    <string name="plea_login">请先登录～</string>
+    <string name="balance">余额</string>
+    <string name="card__name">储蓄卡</string>
+    <string name="copy">复制</string>
+    <string name="save_to_phone">保存到手机</string>
+    <string name="start_app">启动app</string>
+    <string name="deposit_uncatch_image_toast">获取图片失败</string>
+    <string name="mail_account">账户</string>
+    <string name="mial_add_msg">新增消息</string>
+</resources>

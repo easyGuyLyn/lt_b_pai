@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.dawoo.lotterybox.view.view.HeaderView
+            android:id="@+id/head_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dp_15"
+            android:background="@drawable/shape_activities_detail_bg">
+
+            <TextView
+                android:id="@+id/activities_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/text_18_sp"
+                android:textColor="@color/black"
+                android:text="官方无开奖"
+                android:padding="@dimen/dp_15"
+                android:drawableLeft="@mipmap/img_prized"
+                android:drawablePadding="-20dp"/>
+
+            <TextView
+                android:id="@+id/activities_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dp_15"
+                android:paddingBottom="@dimen/dp_15"
+                android:text="@string/notice_time"
+                android:textSize="@dimen/text_12_sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_gray_E2E2E2"/>
+
+            <TextView
+                android:id="@+id/activities_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_15"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

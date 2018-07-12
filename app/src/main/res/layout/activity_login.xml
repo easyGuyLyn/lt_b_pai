@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray_efefef"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/content_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_version_ll"
+        android:orientation="vertical">
+
+        <com.dawoo.lotterybox.view.view.HeaderView
+            android:id="@+id/head_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="10dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@mipmap/user_name_icon" />
+
+            <EditText
+                android:id="@+id/name_et"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/editText_height"
+                android:background="@color/transparent"
+                android:hint="@string/input_user_name"
+                android:paddingStart="20dp"
+                android:textSize="@dimen/text_12_sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_gray_EEEEEE" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp">
+
+            <ImageView
+                android:id="@+id/user_pwd_iv"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/user_pwd_icon" />
+
+            <EditText
+                android:id="@+id/pwd_et"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/editText_height"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/user_pwd_iv"
+                android:layout_toStartOf="@+id/input_type_iv"
+                android:background="@color/transparent"
+                android:hint="@string/input_user_pwd"
+                android:inputType="textPassword"
+                android:paddingStart="20dp"
+                android:textSize="@dimen/text_12_sp" />
+
+            <ImageView
+                android:id="@+id/input_type_iv"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/input_type_icon_selector" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/forget_pwd_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:text="@string/foget_pwd"
+                android:textColor="@color/color_gray_999999"
+                android:textSize="@dimen/text_12_sp" />
+
+            <Switch
+                android:id="@+id/password_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/dp_10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_10"
+                android:layout_toLeftOf="@+id/password_switch"
+                android:text="@string/remeber_pwd"
+                android:textColor="@color/color_gray_999999"
+                android:textSize="@dimen/text_12_sp" />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/login_btn"
+            style="@style/common_btn_style"
+            android:text="@string/title_name_activity_login" />
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_corn_bg_white"
+            android:text="@string/title_name_activity_register"
+            android:textColor="@color/color_gray_444444"
+            android:textSize="@dimen/text_14_sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_version_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HONGKONG SIZZLER NETWORK"
+            android:textColor="@color/color_gray_999999"
+            android:textSize="@dimen/text_10_sp" />
+
+        <TextView
+            android:id="@+id/tv_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_head"
+            android:text="V 3.0"
+            android:textColor="@color/color_gray_999999"
+            android:textSize="@dimen/text_12_sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

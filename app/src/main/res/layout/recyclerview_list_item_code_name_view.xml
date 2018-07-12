@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_code_name"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_code_item"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLength="10"
+        android:paddingBottom="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="6dp"
+        android:text="重庆实时彩a盘"
+        android:textColor="@color/color_gray_666666"
+        android:textSize="10sp" />
+
+
+</LinearLayout>

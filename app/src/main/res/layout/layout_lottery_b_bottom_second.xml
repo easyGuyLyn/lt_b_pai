@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lLayout_ssc_bottom_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/custom_blue_light">
+
+    <include layout="@layout/layout_lottery_b_bottom_head" />
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/rl_head"
+        android:background="@color/black"></View>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_touzhu"
+        android:layout_below="@+id/v1">
+
+
+        <FrameLayout
+            android:id="@+id/fragment_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ll_anim_dog"
+            android:layout_toRightOf="@+id/rlv_game_parentTitle"
+            android:background="@drawable/shape_ssc_b_content1" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_anim_dog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rlv_game_parentTitle"
+            android:background="@drawable/shape_ssc_b_content_bo_stroke"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_10"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_anim_dog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chicken_peck12" />
+
+        </LinearLayout>
+
+        <include layout="@layout/layout_fendan_view" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rlv_game_parentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_ssc_b_recycleview_bottom_line" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_lottery_b_bottom_touzhu" />
+
+    <Button
+        android:id="@+id/tv_bottom_content_init"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_b_content_bg"
+        android:padding="@dimen/dp_20"
+        android:text="@string/click_refresh"
+        android:textColor="@color/color_gray_999999"
+        android:textSize="@dimen/dp_20"
+        android:textStyle="normal"
+        android:visibility="gone" />
+
+</RelativeLayout>

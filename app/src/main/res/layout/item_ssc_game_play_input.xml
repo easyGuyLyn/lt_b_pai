@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_bet_input"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:digits="0123456789,; "
+        android:gravity="top"
+        android:padding="@dimen/dp_10"
+        android:hint="每一注号码之间请用一个 空格[ ]、逗号[,] 或者 分号[;] 隔开。"
+        android:background="@drawable/shape_item_ssc_play_game_input_bg"/>
+
+</LinearLayout>

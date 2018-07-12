@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_30"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/question_ask_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_20"
+        android:gravity="center"
+        android:text="特码"
+        android:textColor="@color/text_blue"
+        android:textSize="@dimen/sp_12" />
+
+    <TextView
+        android:layout_width="@dimen/dp_20"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_toRightOf="@+id/question_ask_tv"
+        android:background="@drawable/shape_blue_question_round"
+        android:gravity="center"
+        android:text="？"
+        android:textColor="@color/text_blue"
+        android:textSize="@dimen/sp_12"
+        android:textStyle="bold" />
+</RelativeLayout>

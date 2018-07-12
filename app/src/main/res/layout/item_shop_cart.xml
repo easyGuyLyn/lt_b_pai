@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_margin="@dimen/dp_10">
+
+    <TextView
+        android:id="@+id/tv_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:padding="@dimen/dp_3"
+        android:gravity="center"
+        android:textSize="@dimen/text_14_sp"
+        android:textColor="#FFF9DBA8"
+        android:background="#FF758771"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_bet_delete"
+        android:layout_below="@+id/tv_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/bet_delete"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="@dimen/dp_20"/>
+
+    <TextView
+        android:id="@+id/tv_bet_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-,-,5,1,0"
+        android:maxWidth="120dp"
+        android:textSize="@dimen/text_18_sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/tv_app"
+        android:layout_toRightOf="@+id/iv_bet_delete"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="@dimen/dp_10"/>
+
+    <TextView
+        android:id="@+id/bet_comput"
+        android:layout_below="@id/tv_bet_num"
+        android:layout_alignLeft="@+id/tv_bet_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        android:maxWidth="120dp"
+        android:textColor="@color/color_gray_999999"
+        android:text="后三直选复试  1注 1倍  1.00金"
+        android:paddingBottom="@dimen/dp_10"/>
+
+    <LinearLayout
+        android:id="@+id/ll_bet_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/tv_app"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_20"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/dp_3"
+            android:text="投"/>
+        <EditText
+            android:id="@+id/et_multiple"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:digits="1234567890"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:padding="@dimen/dp_2"
+            android:background="@drawable/shape_shop_cart_input_bg"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp_3"
+            android:text="倍"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_additional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/ll_bet_times"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_20"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="追"/>
+        <EditText
+            android:id="@+id/et_additional_time"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:background="@drawable/shape_shop_cart_input_bg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="期"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_additional"
+        android:layout_below="@+id/ll_additional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="追号"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_btn_red_select_bg"
+        android:paddingRight="@dimen/dp_20"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingTop="@dimen/dp_5"
+        android:paddingBottom="@dimen/dp_5"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_nothing_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <ImageView
+
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/setting_card_img" />
+
+
+    <TextView
+        android:id="@+id/tv_show_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="你还没绑定用于提现的银行卡"
+        android:textColor="@color/color_gray_333333"
+        android:textSize="@dimen/text_14_sp" />
+
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/setting_bing_card_btn_bg"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

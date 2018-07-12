@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_fragment_b_boot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dp_6"
+        android:paddingLeft="@dimen/dp_2"
+        android:paddingRight="@dimen/dp_2"
+        android:paddingTop="@dimen/dp_6"
+        app:tabBackground="@drawable/selector_lottery_b_tab_bg"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/color_gray_666666" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_below="@+id/tabLayout"
+        android:background="@color/black"></View>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_below="@+id/tv_odd_explain"
+        android:background="@color/black"></View>
+
+    <TextView
+        android:id="@+id/tv_odd_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tabLayout"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="@dimen/dp_6"
+        android:gravity="center"
+        android:text=""
+        android:visibility="gone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_szp_play_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_odd_explain" />
+
+
+</RelativeLayout>

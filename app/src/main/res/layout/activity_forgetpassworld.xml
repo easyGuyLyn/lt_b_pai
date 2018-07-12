@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.dawoo.lotterybox.view.view.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:text="@string/enter_old_password"
+            android:textColor="@color/setting_account_color"
+            android:textSize="@dimen/text_12_sp" />
+
+
+        <EditText
+            android:id="@+id/input_old_psw"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_input_area"
+            android:hint="@string/please_enter_old_password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="@dimen/text_12_sp" />
+           <ImageView
+               android:layout_width="18dp"
+               android:layout_height="18dp"
+               android:layout_marginLeft="4dp"
+               android:layout_marginRight="4dp"
+               android:id="@+id/iv_old_PWD"
+               android:src="@drawable/input_type_icon_selector"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:text="@string/enter_new_password"
+            android:textColor="@color/setting_account_color"
+            android:textSize="@dimen/text_12_sp" />
+
+
+        <EditText
+            android:id="@+id/input_new_psw"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_input_area"
+            android:hint="@string/register_pwd_hinit"
+            android:inputType="textPassword"
+            android:maxLength="15"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="@dimen/text_12_sp" />
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:id="@+id/iv_new_PWD"
+            android:src="@drawable/input_type_icon_selector"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:text="@string/confirm_new_password"
+            android:textColor="@color/setting_account_color"
+            android:textSize="@dimen/text_12_sp" />
+
+
+        <EditText
+            android:id="@+id/confirm_new_psw"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_input_area"
+            android:hint="@string/please_confirm_new_password"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:maxLength="15"
+            android:inputType="textPassword"
+            android:textSize="@dimen/text_12_sp" />
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:id="@+id/iv_new_twice_PWD"
+            android:src="@drawable/input_type_icon_selector"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/setting_bing_card_btn_bg"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_14_sp" />
+
+    <TextView
+        android:id="@+id/tv_forgetpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/forgetPassword"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_12_sp" />
+
+</LinearLayout>

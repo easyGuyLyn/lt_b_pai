@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dawoo.lotterybox.view.activity.setting.AvatarChooseActivity">
+
+    <com.dawoo.lotterybox.view.view.HeaderView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hv_top">
+
+    </com.dawoo.lotterybox.view.view.HeaderView>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srlEnableRefresh="false"
+        app:srlEnableLoadMore="false"
+        app:srlEnableOverScrollDrag="true">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:background="@color/bgColor"
+            android:layout_height="match_parent"
+            android:id="@+id/rv_content">
+
+        </android.support.v7.widget.RecyclerView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

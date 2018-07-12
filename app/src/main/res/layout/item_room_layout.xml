@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="@dimen/dp_35"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="@dimen/dp_35"
+        android:textSize="11.5sp"
+        android:gravity="center"
+        android:textColor="@color/color_gray_666666"
+        android:id="@+id/item_left_tv"
+        />
+    <View
+        android:layout_width="@dimen/dp_0.5"
+        android:layout_height="@dimen/dp_35"
+        android:background="@color/line_bg"/>
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical"
+    tools:context="com.dawoo.lotterybox.view.activity.team.TeamMemberActivity">
+
+    <LinearLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_title_bg"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_status_bar" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48dp">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <FrameLayout
+                    android:id="@+id/left_btn"
+                    android:layout_width="42dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="-10dp">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center_vertical"
+
+                        android:src="@mipmap/head_back_icon_unclick" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/title_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_title_sp" />
+            </android.support.v7.widget.Toolbar>
+
+            <com.miguelcatalan.materialsearchview.MaterialSearchView
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tb_member"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:background="@color/white"
+        app:tabIndicatorColor="@color/history_item_blue"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/history_item_blue"
+        app:tabTextColor="@color/color_gray_333333">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_team_member_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

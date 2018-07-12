@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_title_bg"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_status_bar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height">
+
+            <ImageView
+                android:id="@+id/hend_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:onClick="onViewClicked"
+                android:src="@mipmap/head_back_icon_unclick" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="66dp"
+                android:layout_centerHorizontal="true"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/messagecenter_left_bnt_text"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/message_receive"
+                        android:layout_width="75dp"
+                        android:layout_height="36dp"
+                        android:background="@drawable/note_button_left_selector"
+                        android:text="@string/messagecenter_left_bnt_text"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_12_sp" />
+
+
+                    <Button
+                        android:id="@+id/message_station_letter"
+                        android:layout_width="75dp"
+                        android:layout_height="36dp"
+                        android:background="@drawable/note_button_mid_selector"
+                        android:text="@string/messagecenter_right_bnt_text"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_12_sp" />
+
+                    <Button
+                        android:id="@+id/message_send_email"
+                        android:layout_width="75dp"
+                        android:layout_height="36dp"
+                        android:background="@drawable/note_button_right_selector"
+                        android:text="@string/email_box"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_12_sp" />
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/share_friend_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:onClick="onViewClicked"
+                android:src="@mipmap/mine_top_left"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <com.dawoo.lotterybox.view.view.CustomViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

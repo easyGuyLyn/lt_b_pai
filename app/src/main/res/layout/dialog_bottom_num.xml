@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:id="@+id/ll_bottom_num">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/times_five_btn"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/shape_corn_dialog_bottom_btn_times_bg"
+                android:gravity="center"
+                android:text="投5倍"
+                android:textColor="@color/color_gray_333333"
+                android:textSize="@dimen/text_15_sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/times_ten_btn"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/shape_corn_dialog_bottom_btn_times_bg"
+                android:gravity="center"
+                android:text="投10倍"
+                android:textColor="@color/color_gray_333333"
+                android:textSize="@dimen/text_15_sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/times_twenty_btn"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/shape_corn_dialog_bottom_btn_times_bg"
+                android:gravity="center"
+                android:text="投20倍"
+                android:textColor="@color/color_gray_333333"
+                android:textSize="@dimen/text_15_sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_gray_EEEEEE"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/one_key_btn"
+            style="@style/InputNumStyle"
+            android:text="1" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_EEEEEE"/>
+
+        <TextView
+            android:id="@+id/two_key_btn"
+            style="@style/InputNumStyle"
+            android:text="2" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_EEEEEE"/>
+
+
+        <TextView
+            android:id="@+id/three_key_btn"
+            style="@style/InputNumStyle"
+            android:text="3" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_EEEEEE"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/color_gray_EEEEEE"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/four_key_btn"
+            style="@style/InputNumStyle"
+            android:text="4" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_EEEEEE"/>
+
+
+        <TextView
+            android:id="@+id/five_key_btn"
+            style="@style/InputNumStyle"
+            android:text="5" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_EEEEEE"/>
+
+        <TextView
+            android:id="@+id/six_key_btn"
+            style="@style/InputNumStyle"
+            android:text="6" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_EEEEEE"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/color_gray_EEEEEE"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/seven_key_btn"
+            style="@style/InputNumStyle"
+            android:text="7" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_EEEEEE"/>
+
+
+        <TextView
+            android:id="@+id/eight_key_btn"
+            style="@style/InputNumStyle"
+            android:text="8" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_EEEEEE"/>
+
+
+        <TextView
+            android:id="@+id/nine_key_btn"
+            style="@style/InputNumStyle"
+            android:text="9" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_EEEEEE"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/color_gray_EEEEEE"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/confirm_key_btn"
+            style="@style/InputNumStyle"
+            android:text="确认" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_EEEEEE"/>
+
+        <TextView
+            android:id="@+id/zero_key_btn"
+            style="@style/InputNumStyle"
+            android:text="0" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_EEEEEE"/>
+
+        <FrameLayout
+            android:id="@+id/back_key_btn"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/keyboard_backspace" />
+        </FrameLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_gray_EEEEEE"/>
+
+    </LinearLayout>
+</LinearLayout>

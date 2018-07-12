@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.dawoo.lotterybox.view.view.HeaderView
+                android:id="@+id/head_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="4dp"
+                card:cardBackgroundColor="@color/white"
+                card:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_marginLeft="14dp"
+
+                        android:gravity="center_vertical"
+                        android:text="为了您的资金安全,请添加属于您个人的银行卡号"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/sp_12" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+
+                        android:layout_marginStart="14dp"
+                        android:background="@color/color_gray_EEEEEE" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical|left"
+                                android:layout_marginStart="@dimen/dp_4"
+                                android:layout_weight="1"
+                                android:gravity="start|center_vertical"
+                                android:text="持卡人银行"
+                                android:textColor="@color/color_gray_333333"
+                                android:textSize="@dimen/text_14_sp" />
+
+                            <LinearLayout
+                                android:id="@+id/bank_ll"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="3"
+                                android:background="@drawable/band_card_depotis_bg"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/bank_img"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical|left"
+                                    android:gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@mipmap/zhaoshangcard" />
+
+                                <TextView
+                                    android:layout_marginLeft="4dp"
+                                    android:id="@+id/bank_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:drawableRight="@mipmap/img_triangle_down"
+                                    android:gravity="center_vertical|left"
+                                    android:paddingLeft="2dp"
+                                    android:paddingRight="10dp"
+                                    android:text="招商银行卡"
+                                    android:textSize="@dimen/sp_12" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical|left"
+                                android:layout_marginStart="@dimen/dp_4"
+                                android:layout_weight="1"
+                                android:gravity="start|center_vertical"
+                                android:text="持卡人"
+                                android:textColor="@color/color_gray_333333"
+                                android:textSize="@dimen/text_14_sp" />
+
+                            <EditText
+                                android:id="@+id/card_name"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="3"
+                                android:inputType="textPersonName"
+                                android:background="@drawable/band_card_depotis_bg"
+                                android:gravity="center_vertical|left"
+                                android:hint="@string/input_name"
+                                android:paddingLeft="10dp"
+                                android:textColor="@color/text_color_gray_999999"
+                                android:textColorHint="@color/text_color_gray_999999"
+                                android:textSize="@dimen/text_12_sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/dp_4"
+                                android:layout_weight="1"
+                                android:gravity="start|center_vertical"
+                                android:text="银行卡号"
+                                android:textColor="@color/color_gray_333333"
+                                android:textSize="@dimen/text_14_sp" />
+
+                            <EditText
+                                android:id="@+id/card_number"
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_weight="3"
+
+                                android:background="@drawable/band_card_depotis_bg"
+                                android:ellipsize="end"
+                                android:gravity="center_vertical|left"
+                                android:hint="@string/input_card"
+                                android:inputType="number"
+                                android:lines="1"
+                                android:paddingLeft="10dp"
+                                android:textColor="@color/text_color_gray_999999"
+                                android:textColorHint="@color/text_color_gray_999999"
+                                android:textSize="@dimen/text_12_sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <Button
+                android:id="@+id/bt_submit"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/setting_bing_card_btn_bg"
+                android:text="立即绑定"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_14_sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="156dp"
+                android:text="温馨提示"
+
+                android:textColor="@color/color_gray_333333"
+                android:textSize="@dimen/text_14_sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="10dp"
+                android:text="1.您只能绑定同一个用户名的银行卡,一个账号只能绑定一个银行卡;"
+                android:textColor="@color/text_color_gray_999999"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:text="2.系统将会向您的银行卡汇入一笔金额进行验证操作,请确保填写的无误;"
+                android:textColor="@color/text_color_gray_999999"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"
+                android:text="3.您第一天只能进行三次验证操作。"
+                android:textColor="@color/text_color_gray_999999"
+                android:textSize="12sp"
+                android:layout_marginBottom="30dp"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

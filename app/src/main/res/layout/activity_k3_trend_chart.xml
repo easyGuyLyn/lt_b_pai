@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.dawoo.lotterybox.view.view.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/open_item_bg">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_gravity="bottom"
+            android:background="@color/color_gray_333333" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/open_tab_layout_selecr"
+            app:tabIndicatorHeight="1.5dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/open_tab_layout_selecr"
+            app:tabTextColor="@color/open_item_text2" />
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rl_bottom" />
+
+        <include
+            android:id="@+id/rl_bottom"
+            layout="@layout/layout_chart_count_time_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chart_bottom_count_time_height"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="@dimen/sm_bo_height"
+    android:background="@drawable/selector_lhc_parent_play_item"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/lhc_play_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_14"
+            android:text="单"
+            />
+        <TextView
+            android:id="@+id/odds_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/lhc_play_tv"
+            android:textColor="@color/color_gray_333333"
+            android:textSize="@dimen/sp_12"
+            android:layout_centerVertical="true"
+            android:text="1.98"
+            android:layout_marginLeft="@dimen/dp_5"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/dp_5"
+        android:textSize="@dimen/sp_12"
+        android:text="12"
+        android:textColor="@color/text_blue"
+        />
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.dawoo.lotterybox.view.view.HeaderLotteryAView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height" />
+
+    <include
+        layout="@layout/layout_ssc_base_top"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/ssc_layout_bottom_height">
+
+            <include
+                layout="@layout/layout_ssc_base_bottom_first" />
+
+            <include
+                layout="@layout/layout_ssc_base_bottom_second"/>
+
+        </android.support.design.widget.CoordinatorLayout>
+
+        <include layout="@layout/layout_ssc_base_bottom_betting"/>
+        <include layout="@layout/layout_stop_sale"/>
+    </RelativeLayout>
+
+</LinearLayout>

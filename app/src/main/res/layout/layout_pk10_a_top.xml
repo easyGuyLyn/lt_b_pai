@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ssc_base_top_height"
+    android:background="@mipmap/cq_ssc_a_top_bg">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv_periods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京PK10 第20179984期"
+            android:textSize="@dimen/text_12_sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/dp_4"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_4">
+            <com.dawoo.lotterybox.view.view.sortcar.SortCarSurfaceView
+                android:id="@+id/carView"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="@dimen/dp_6" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv_now_stage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第23265445期"
+            android:textSize="@dimen/text_10_sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/dp_4"/>
+        <TextView
+            android:id="@+id/tv_now_stage_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="截止"
+            android:textSize="@dimen/text_12_sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/dp_4"/>
+        <com.dawoo.lotterybox.view.view.TimeTextView
+            android:id="@+id/ttv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:25"
+            android:textSize="@dimen/text_30_sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/dp_4"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_head"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:focusableInTouchMode="true">
+
+    <com.dawoo.lotterybox.view.view.ArcView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:arcHeight="10dp"
+        android:id="@+id/arc_view"
+        app:bgColor="@color/red_btn_bg"
+        />
+
+    <ImageView
+        android:id="@+id/iv_open_close_ui"
+        android:layout_width="22dp"
+        android:layout_height="10dp"
+        android:scaleType="center"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/hide_result_icon" />
+    <ImageView
+        android:id="@+id/show_result_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="matrix"
+        android:src="@mipmap/show_result_line"
+        android:layout_marginTop="@dimen/dp_2"
+        android:visibility="gone"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="@dimen/dp_6">
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/img_gold_pig" />
+
+        <TextView
+            android:id="@+id/tv_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_6"
+            android:layout_toRightOf="@+id/iv_1"
+            android:gravity="center"
+            android:text="0.00" />
+
+
+        <CheckBox
+            android:id="@+id/hot_and_cold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/cb_omit"
+            android:paddingRight="3dp"
+            android:text="冷热" />
+
+        <CheckBox
+            android:id="@+id/cb_omit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_random"
+            android:paddingRight="5dp"
+            android:text="遗漏" />
+
+        <ImageView
+            android:id="@+id/iv_random"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="15dp"
+            android:src="@mipmap/img_shake" />
+
+    </RelativeLayout>
+</RelativeLayout>

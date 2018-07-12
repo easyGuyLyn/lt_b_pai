@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll_view"
+    android:background="@color/sm_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:descendantFocusability="blocksDescendants"
+    >
+
+        <com.dawoo.lotterybox.view.view.QuestionAskView
+            android:id="@+id/ask0"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"></com.dawoo.lotterybox.view.view.QuestionAskView>
+
+        <com.dawoo.lotterybox.view.view.NoMoveRecycleView
+            android:id="@+id/rc_bo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.dawoo.lotterybox.view.view.NoMoveRecycleView>
+
+
+        <com.dawoo.lotterybox.view.view.QuestionAskView
+            android:id="@+id/ask1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"></com.dawoo.lotterybox.view.view.QuestionAskView>
+
+        <com.dawoo.lotterybox.view.view.NoMoveRecycleView
+            android:id="@+id/rc_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.dawoo.lotterybox.view.view.NoMoveRecycleView>
+
+
+    </LinearLayout>
+</ScrollView>

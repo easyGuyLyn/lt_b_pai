@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <item type="id" name="list_item_data_id"/>
+    <item type="id" name="webview_iv_home"/>
+    <item type="id" name="webview_iv_back"/>
+
+
+</resources>

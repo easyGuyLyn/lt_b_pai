@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="34dp"
+    android:orientation="horizontal"
+    android:background="@color/open_item_bg">
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/open_item_text"
+        android:text="@string/number"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/open_item_text"/>
+
+    <TextView
+        android:id="@+id/tv_which_30"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/open_item_text"
+        android:text="@string/which_30"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/open_item_text"/>
+
+    <TextView
+        android:id="@+id/tv_which_50"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/open_item_text"
+        android:text="@string/which_50"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/open_item_text"/>
+
+    <TextView
+        android:id="@+id/tv_which_100"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/open_item_text"
+        android:text="@string/which_100"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/open_item_text"/>
+
+    <TextView
+        android:id="@+id/tv_cold"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/open_item_text"
+        android:text="@string/cold_hot"/>
+
+</LinearLayout>

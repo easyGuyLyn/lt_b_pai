@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/ssc_expect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_gray_666666"
+            android:textSize="@dimen/text_14_sp" />
+
+        <TextView
+            android:id="@+id/ssc_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/ssc_expect"
+            android:textColor="@color/color_gray_666666"
+            android:textSize="@dimen/text_14_sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/k3_ball_one_tv"
+            style="@style/rcd_item_k3_ball_style"
+            android:layout_marginStart="4dp" />
+
+        <TextView
+            android:id="@+id/k3_ball_tow_tv"
+            style="@style/rcd_item_k3_ball_style"
+            android:layout_toEndOf="@id/k3_ball_one_tv" />
+
+        <TextView
+            android:id="@+id/k3_ball_three_tv"
+            style="@style/rcd_item_k3_ball_style"
+            android:layout_toEndOf="@id/k3_ball_tow_tv" />
+
+
+        <TextView
+            android:id="@+id/k3_lable_sum_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/k3_ball_three_tv"
+            android:text="和值："
+            android:textColor="@color/color_gray_999999"
+            android:textSize="@dimen/text_14_sp" />
+
+        <TextView
+            android:id="@+id/k3_value_sum_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/k3_lable_sum_tv"
+            android:textColor="@color/color_gray_999999"
+            android:textSize="@dimen/text_14_sp" />
+
+        <TextView
+            android:id="@+id/line_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/k3_value_sum_tv"
+            android:text="|" />
+
+        <TextView
+            android:id="@+id/k3_lable_group_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:layout_toEndOf="@id/line_vertical"
+            android:textColor="@color/color_gray_999999"
+            android:textSize="@dimen/text_14_sp" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

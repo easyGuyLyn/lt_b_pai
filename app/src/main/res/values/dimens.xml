@@ -1,0 +1,78 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="mine_horizontal_margin">12dp</dimen>
+    <dimen name="dialog_horizontal_margin">20dp</dimen>
+    <dimen name="status_height">25dp</dimen>
+
+    <dimen name="setting_textsize">14dp</dimen>
+    <dimen name="mine_horizontal_margin_top">10dp</dimen>
+    <dimen name="mine_text_top">5dp</dimen>
+
+    <dimen name="toolbar_height">46dp</dimen>
+    <dimen name="tab_bar_height">50dp</dimen>
+    <dimen name="editText_height">45dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+
+    <dimen name="dp_0.5">0.5dp</dimen>
+    <dimen name="chart_item_height">34dp</dimen>
+    <dimen name="chart_item2_height">44dp</dimen>
+    <dimen name="chart_bottom_count_time_height">36dp</dimen>
+
+    <dimen name="dimen_1px">1dp</dimen>
+    <dimen name="dimen_6">6dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_7">7dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_9">9dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_11">11dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_13">13dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_17">17dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_19">19dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_28">28dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+
+
+    <dimen name="text_8_sp">8sp</dimen>
+    <dimen name="text_9_sp">9sp</dimen>
+    <dimen name="text_10_sp">10sp</dimen>
+    <dimen name="text_11_sp">11sp</dimen>
+    <dimen name="text_12_sp">12sp</dimen>
+    <dimen name="text_13_sp">13sp</dimen>
+    <dimen name="text_14_sp">14sp</dimen>
+    <dimen name="text_15_sp">15sp</dimen>
+    <dimen name="text_16_sp">16sp</dimen>
+    <dimen name="text_17_sp">17sp</dimen>
+    <dimen name="text_18_sp">18sp</dimen>
+    <dimen name="text_19_sp">19sp</dimen>
+    <dimen name="text_23_sp">23sp</dimen>
+    <dimen name="text_30_sp">30sp</dimen>
+    <dimen name="text_title_sp">17sp</dimen>
+    <dimen name="text_120_sp">120sp</dimen>
+
+    <!--时时彩-->
+    <dimen name="ssc_base_top_height">80dp</dimen>
+    <dimen name="ssc_b_top_height">90dp</dimen>
+    <dimen name="award_result_item_high">30dp</dimen>
+    <dimen name="ssc_game_play_head_height">70dp</dimen>
+    <dimen name="ssc_layout_bottom_height">46dp</dimen>
+    <!--六合彩-->
+    <dimen name="sm_base_top_height">95dp</dimen>
+    <dimen name="sm_bo_height">60dp</dimen>
+    <dimen name="sm_color_item_height">90dp</dimen>
+</resources>

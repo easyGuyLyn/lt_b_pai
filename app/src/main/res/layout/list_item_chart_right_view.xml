@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/tv_item_right_1"
+        style="@style/right_chart_text_style" />
+
+    <View
+        android:id="@+id/divider_1"
+        style="@style/right_chart_divider_style" />
+
+
+    <TextView
+        android:id="@+id/tv_item_right_2"
+        style="@style/right_chart_text_style" />
+
+    <View
+        android:id="@+id/divider_2"
+        style="@style/right_chart_divider_style" />
+
+
+    <TextView
+        android:id="@+id/tv_item_right_3"
+        style="@style/right_chart_text_style" />
+
+    <View
+        android:id="@+id/divider_3"
+        style="@style/right_chart_divider_style" />
+
+
+    <TextView
+        android:id="@+id/tv_item_right_4"
+        style="@style/right_chart_text_style" />
+
+    <View
+        android:id="@+id/divider_4"
+        style="@style/right_chart_divider_style" />
+
+
+    <TextView
+        android:id="@+id/tv_item_right_5"
+        style="@style/right_chart_text_style" />
+
+    <View
+        android:id="@+id/divider_5"
+        style="@style/right_chart_divider_style" />
+
+
+    <TextView
+        android:id="@+id/tv_item_right_6"
+        style="@style/right_chart_text_style" />
+
+    <View
+        android:id="@+id/divider_6"
+        style="@style/right_chart_divider_style" />
+
+    <TextView
+        android:id="@+id/tv_item_right_7"
+        style="@style/right_chart_text_style" />
+
+    <View
+        android:id="@+id/divider_7"
+        style="@style/right_chart_divider_style" />
+
+
+    <TextView
+        android:id="@+id/tv_item_right_8"
+        style="@style/right_chart_text_style" />
+
+    <View
+        android:id="@+id/divider_8"
+        style="@style/right_chart_divider_style" />
+
+
+    <TextView
+        android:id="@+id/tv_item_right_9"
+        style="@style/right_chart_text_style" />
+
+    <View
+        android:id="@+id/divider_9"
+        style="@style/right_chart_divider_style" />
+</LinearLayout>

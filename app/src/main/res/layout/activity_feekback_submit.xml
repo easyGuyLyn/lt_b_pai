@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical">
+
+    <com.dawoo.lotterybox.view.view.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_10"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/sp_12"
+                android:textColor="@color/color_gray_333333"
+                android:text="@string/feedback_text" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/sp_12"
+                android:textColor="@color/color_gray_333333"
+                android:text="@string/feedback_specific_problems" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/color_gray_333333"
+                    android:text="@string/feedback_failure_time" />
+
+                <TextView
+                    android:id="@+id/time_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="2018.2.15 17.36"
+                    android:layout_gravity="center_vertical"
+                    android:drawableRight="@mipmap/setting_image_setting"
+                    android:layout_marginRight="@dimen/dp_10"
+                    />
+            </LinearLayout>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/bgColor"
+               android:layout_marginLeft="@dimen/dp_15"
+               android:layout_marginRight="@dimen/dp_15"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                >
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/color_gray_333333"
+                    android:text="@string/feedback_supplementary_content" />
+
+                <EditText
+                    android:id="@+id/input_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/sp_12"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:hint="@string/feedback_enter_the_specific_content"
+                    android:textColor="@color/color_gray_333333" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/sp_12"
+                android:textColor="@color/color_gray_333333"
+                android:text="@string/feedback_contact_information" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/color_gray_333333"
+                    android:text="@string/feedback_contact_number" />
+
+                <EditText
+                    android:id="@+id/please_input_detailed_information"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:background="@color/white"
+                    android:gravity="center|left"
+                    android:hint="请输入联系电话"
+                    android:textSize="@dimen/sp_12"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:inputType="phone"
+                    android:textColor="@color/color_gray_333333" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submint_feek"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/certfie_bankcard_btn"
+                android:textColor="@color/white"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:text="@string/feedback_submit" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_title_bg"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_status_bar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hend_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:onClick="onViewClicked"
+                android:src="@mipmap/head_back_icon_unclick" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <Button
+                        android:id="@+id/message_receive"
+                        android:layout_width="75dp"
+                        android:layout_height="36dp"
+                        android:background="@drawable/note_button_left_selector"
+                        android:text="@string/receive_mail_box"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_12_sp" />
+
+                    <Button
+                        android:id="@+id/message_send_email"
+                        android:layout_width="75dp"
+                        android:layout_height="36dp"
+                        android:background="@drawable/note_button_mid_selector"
+                        android:text="@string/send_mail_box"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_12_sp" />
+
+                    <Button
+                        android:id="@+id/message_send"
+                        android:layout_width="75dp"
+                        android:layout_height="36dp"
+                        android:background="@drawable/note_button_right_selector"
+                        android:text="@string/send_msg"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_12_sp"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:text="@string/edit_msg"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/im_addMsgs"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:background="@drawable/ic_border_color_black_40dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <com.dawoo.lotterybox.view.view.CustomViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

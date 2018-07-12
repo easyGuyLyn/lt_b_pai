@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_assets"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/status_tabLayOut"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/colorPrimary"
+            app:tabIndicatorHeight="3dp"
+            app:tabMaxWidth="0dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextColor="@color/color_gray_666666" />
+
+        <include
+            layout="@layout/layout_note_calender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/color_gray_999999"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_action_allCode"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_note_allCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:drawableRight="@mipmap/img_triangle_down"
+                    android:gravity="center"
+                    android:text="@string/note_status_all"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray_999999"></View>
+
+            <RelativeLayout
+                android:id="@+id/rl_action_note_sort"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_note_sort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:drawableRight="@mipmap/img_up_down"
+                    android:gravity="center"
+                    android:text="@string/note_status_note"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:id="@+id/tv_note_sort_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:drawableRight="@mipmap/img_down_up"
+                    android:gravity="center"
+                    android:text="@string/note_status_note"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray_999999"></View>
+
+            <RelativeLayout
+                android:id="@+id/rl_action_yinkui_sort"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_status_sort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:drawableRight="@mipmap/img_up_down"
+                    android:gravity="center"
+                    android:text="@string/note_charse_num_status"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:id="@+id/tv_stauts_sort_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:drawableRight="@mipmap/img_down_up"
+                    android:gravity="center"
+                    android:text="@string/note_charse_num_status"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray_999999"></View>
+
+            <RelativeLayout
+                android:id="@+id/rl_action_time_sort"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_time_sort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:drawableRight="@mipmap/img_up_down"
+                    android:gravity="center"
+                    android:text="@string/note_status_time"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:id="@+id/tv_time_sort_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:drawableRight="@mipmap/img_down_up"
+                    android:gravity="center"
+                    android:text="@string/note_status_time"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/color_gray_999999"></View>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/ry_lottery_codeName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:visibility="gone" />
+
+        <include
+            layout="@layout/layout_swipetoloadlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/ll_assets"
+        layout="@layout/layout_bottom_assets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" />
+
+</RelativeLayout>

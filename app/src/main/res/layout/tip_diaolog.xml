@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="310dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/bank_sucess"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/notice_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="68dp"
+            android:background="@null"
+            android:gravity="center"
+            android:text="@string/band_card_binding_bank_card_sucess"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_title_sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/close_iv"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/colse" />
+</LinearLayout>

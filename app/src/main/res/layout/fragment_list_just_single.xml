@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/black"></View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_below="@+id/tv_play_type_name"
+        android:background="@color/black"></View>
+
+    <TextView
+        android:id="@+id/tv_play_type_name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="@dimen/dp_6"
+        android:drawableRight="@mipmap/icon_question_gray"
+        android:gravity="center"
+        android:text="万位" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_szp_play_type"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_play_type_name" />
+
+</RelativeLayout>

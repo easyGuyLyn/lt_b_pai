@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root_common"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/black"></View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_below="@+id/tv_play_type_name"
+        android:background="@color/black"></View>
+
+    <TextView
+        android:id="@+id/tv_play_type_name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="@dimen/dp_6"
+        android:gravity="center"
+        android:text="万位" />
+
+    <com.dawoo.lotterybox.view.view.NoMoveRecycleView
+        android:id="@+id/rv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_play_type_name" />
+
+</RelativeLayout>

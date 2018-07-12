@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sheng_xiao_array">
+        <item>猪</item>
+        <item>狗</item>
+        <item>鸡</item>
+        <item>猴</item>
+        <item>羊</item>
+        <item>马</item>
+        <item>蛇</item>
+        <item>龙</item>
+        <item>兔</item>
+        <item>虎</item>
+        <item>牛</item>
+        <item>鼠</item>
+    </string-array>
+    <string-array name="transactionTypes">
+        <item>全部类型</item>
+    </string-array>
+
+    <string-array name="note_tab_status">
+        <item>@string/note_status_all</item>
+        <item>@string/note_status_unLottery</item>
+        <item>@string/note_status_winning</item>
+        <item>@string/note_status_lost</item>
+        <item>@string/note_status_cancelList</item>
+        <item>@string/note_status_cancelList1</item>
+    </string-array>
+
+    <string-array name="chaseNum_tab_status">
+        <item>@string/note_status_all</item>
+        <item>@string/chaseNum_status_donging</item>
+        <item>@string/chaseNum_status_finish</item>
+    </string-array>
+
+    <string-array name="cancel_tab_status">
+        <item>@string/note_status_all</item>
+        <item>@string/main_cancel</item>
+        <item>@string/sys_cancel</item>
+        <item>@string/prized_stop</item>
+    </string-array>
+
+
+    <string-array name="cqssc_b_playType">
+        <item>@string/SZP</item>
+        <item>@string/SM</item>
+        <item>@string/YZDW</item>
+        <item>@string/RZDW</item>
+        <item>@string/SZDW</item>
+        <item>@string/YZZH</item>
+        <item>@string/ZXS</item>
+        <item>@string/ZXL</item>
+        <item>@string/KD</item>
+        <item>@string/LH</item>
+    </string-array>
+    <!--六合彩玩法大分类-->
+    <string-array name="lhc_parent_play_type_name">
+        <item>"特码"</item>
+        <item>"正码"</item>
+        <item>"正码特"</item>
+        <item>"正码1-6"</item>
+        <item>"半波"</item>
+        <item>"一肖"</item>
+        <item>"特肖"</item>
+        <item>"连码"</item>
+        <item>"合肖"</item>
+        <item>"连肖"</item>
+        <item>"尾数连"</item>
+        <item>"全不中"</item>
+    </string-array>
+    <!--六合彩玩法文字列表-->
+    <string-array name="lhc_word_plays_name">
+        <item>@string/lhc_word_big</item>
+        <item>@string/lhc_word_small</item>
+        <item>@string/lhc_word_d</item>
+        <item>@string/lhc_word_s</item>
+        <item>@string/lhc_word_hd</item>
+        <item>@string/lhc_word_hs</item>
+        <item>@string/lhc_word_hbig</item>
+        <item>@string/lhc_word_hsmall</item>
+        <item>@string/lhc_word_bigd</item>
+        <item>@string/lhc_word_bigs</item>
+        <item>@string/lhc_word_smalld</item>
+        <item>@string/lhc_word_smalls</item>
+        <item>@string/lhc_word_wbig</item>
+        <item>@string/lhc_word_wsmall</item>
+    </string-array>
+    <string-array name="lhc_z_word_plays_name">
+        <item>@string/lhc_word_zbig</item>
+        <item>@string/lhc_word_zsmall</item>
+        <item>@string/lhc_word_zd</item>
+        <item>@string/lhc_word_zs</item>
+        <item>@string/lhc_word_hd</item>
+        <item>@string/lhc_word_hs</item>
+        <item>@string/lhc_word_hbig</item>
+        <item>@string/lhc_word_hsmall</item>
+        <item>@string/lhc_word_bigd</item>
+        <item>@string/lhc_word_bigs</item>
+        <item>@string/lhc_word_smalld</item>
+        <item>@string/lhc_word_smalls</item>
+        <item>@string/lhc_word_wbig</item>
+        <item>@string/lhc_word_wsmall</item>
+    </string-array>
+    <string-array name="lhc_color_plays_name">
+        <item>@string/lhc_red_play</item>
+        <item>@string/lhc_blue_play</item>
+        <item>@string/lhc_green_play</item>
+    </string-array>
+    <string-array name="lhc_tm_play_name">
+        <item>@string/lhc_tm_a_name</item>
+        <item>@string/lhc_tm_b_name</item>
+    </string-array>
+    <string-array name="lhc_tm_play_code">
+        <item>@string/lhc_tm_a_code</item>
+        <item>@string/lhc_tm_b_code</item>
+    </string-array>
+    <string-array name="lhc_zmt_type_name">
+        <item>@string/lhc_z1t_type</item>
+        <item>@string/lhc_z2t_type</item>
+        <item>@string/lhc_z3t_type</item>
+        <item>@string/lhc_z4t_type</item>
+        <item>@string/lhc_z5t_type</item>
+        <item>@string/lhc_z6t_type</item>
+    </string-array>
+    <string-array name="lhc_zmt_type_bcode">
+        <item>@string/lch_bcode_z1t</item>
+        <item>@string/lch_bcode_z2t</item>
+        <item>@string/lch_bcode_z3t</item>
+        <item>@string/lch_bcode_z4t</item>
+        <item>@string/lch_bcode_z5t</item>
+        <item>@string/lch_bcode_z6t</item>
+    </string-array>
+
+    <string-array name="pk10_b_playType">
+        <item>@string/SZP</item>
+        <item>@string/SM</item>
+        <item>@string/GYJ</item>
+    </string-array>
+
+    <string-array name="lhc_con_match_types">
+        <item>@string/lhc_con_match_0</item>
+        <item>@string/lhc_con_match_1</item>
+        <item>@string/lhc_con_match_2</item>
+        <item>@string/lhc_con_match_3</item>
+        <item>@string/lhc_con_match_4</item>
+        <item>@string/lhc_con_match_5</item>
+    </string-array>
+    <string-array name="lhc_con_match_type_codes">
+        <item>@string/lhc_con_match_code0</item>
+        <item>@string/lhc_con_match_code1</item>
+        <item>@string/lhc_con_match_code2</item>
+        <item>@string/lhc_con_match_code3</item>
+        <item>@string/lhc_con_match_code4</item>
+        <item>@string/lhc_con_match_code5</item>
+    </string-array>
+
+    <string-array name="lhc_add_animal_names">
+        <item>@string/lhc_add_animal_name0</item>
+        <item>@string/lhc_add_animal_name1</item>
+        <item>@string/lhc_add_animal_name2</item>
+        <item>@string/lhc_add_animal_name3</item>
+        <item>@string/lhc_add_animal_name4</item>
+        <item>@string/lhc_add_animal_name5</item>
+        <item>@string/lhc_add_animal_name6</item>
+        <item>@string/lhc_add_animal_name7</item>
+        <item>@string/lhc_add_animal_name8</item>
+        <item>@string/lhc_add_animal_name9</item>
+    </string-array>
+    <string-array name="lhc_add_animal_codes">
+        <item>@string/lhc_add_animal_code0</item>
+        <item>@string/lhc_add_animal_code1</item>
+        <item>@string/lhc_add_animal_code2</item>
+        <item>@string/lhc_add_animal_code3</item>
+        <item>@string/lhc_add_animal_code4</item>
+        <item>@string/lhc_add_animal_code5</item>
+        <item>@string/lhc_add_animal_code6</item>
+        <item>@string/lhc_add_animal_code7</item>
+        <item>@string/lhc_add_animal_code8</item>
+        <item>@string/lhc_add_animal_code9</item>
+    </string-array>
+
+
+    <string-array name="lhc_even_animal_names">
+        <item>@string/lhc_animal_con_name0</item>
+        <item>@string/lhc_animal_con_name1</item>
+        <item>@string/lhc_animal_con_name2</item>
+        <item>@string/lhc_animal_con_name3</item>
+    </string-array>
+    <string-array name="lhc_even_animal_codes">
+        <item>@string/lhc_animal_con_code0</item>
+        <item>@string/lhc_animal_con_code1</item>
+        <item>@string/lhc_animal_con_code2</item>
+        <item>@string/lhc_animal_con_code3</item>
+    </string-array>
+
+    <string-array name="lhc_even_mantissa_names">
+        <item>@string/lhc_mantissa_even_name0</item>
+        <item>@string/lhc_mantissa_even_name1</item>
+        <item>@string/lhc_mantissa_even_name2</item>
+        <item>@string/lhc_mantissa_even_name3</item>
+    </string-array>
+    <string-array name="lhc_even_mantissa_codes">
+        <item>@string/lhc_mantissa_even_code0</item>
+        <item>@string/lhc_mantissa_even_code1</item>
+        <item>@string/lhc_mantissa_even_code2</item>
+        <item>@string/lhc_mantissa_even_code3</item>
+    </string-array>
+
+    <string-array name="lhc_un_match_names">
+        <item>@string/lhc_un_match_name0</item>
+        <item>@string/lhc_un_match_name1</item>
+        <item>@string/lhc_un_match_name2</item>
+        <item>@string/lhc_un_match_name3</item>
+        <item>@string/lhc_un_match_name4</item>
+        <item>@string/lhc_un_match_name5</item>
+        <item>@string/lhc_un_match_name6</item>
+        <item>@string/lhc_un_match_name7</item>
+    </string-array>
+    <string-array name="lhc_un_match_codes">
+        <item>@string/lhc_un_match_code0</item>
+        <item>@string/lhc_un_match_code1</item>
+        <item>@string/lhc_un_match_code2</item>
+        <item>@string/lhc_un_match_code3</item>
+        <item>@string/lhc_un_match_code4</item>
+        <item>@string/lhc_un_match_code5</item>
+        <item>@string/lhc_un_match_code6</item>
+        <item>@string/lhc_un_match_code7</item>
+    </string-array>
+    <string-array name="CQXYNC_playType">
+        <item>@string/SM</item>
+        <item>@string/first_ball</item>
+        <item>@string/second_ball</item>
+        <item>@string/third_ball</item>
+        <item>@string/fourth_ball</item>
+        <item>@string/fifth_ball</item>
+        <item>@string/sixth_ball</item>
+        <item>@string/seventh_ball</item>
+        <item>@string/eighth_ball</item>
+        <item>@string/dragon_and_tiger</item>
+    </string-array>
+
+
+    <string-array name="GDKL10_playType">
+        <item>@string/SM</item>
+        <item>@string/first_ball</item>
+        <item>@string/second_ball</item>
+        <item>@string/third_ball</item>
+        <item>@string/fourth_ball</item>
+        <item>@string/fifth_ball</item>
+        <item>@string/sixth_ball</item>
+        <item>@string/seventh_ball</item>
+        <item>@string/eighth_ball</item>
+        <item>@string/dragon_and_tiger</item>
+    </string-array>
+
+
+    <string-array name="jsk3_b_playType">
+        <item>@string/DS</item>
+        <item>@string/SJ</item>
+        <item>@string/WS_QS</item>
+        <item>@string/CP</item>
+        <item>@string/DP</item>
+    </string-array>
+    <string-array name="xy28_playType">
+        <item>@string/HH</item>
+        <item>@string/HZTM</item>
+        <item>@string/TMBS</item>
+    </string-array>
+    <string-array name="bjkl8_playType">
+        <item>@string/x5</item>
+        <item>@string/x4</item>
+        <item>@string/x3</item>
+        <item>@string/x2</item>
+        <item>@string/x1</item>
+        <item>@string/qt</item>
+    </string-array>
+    <string-array name="QTB_playType">
+        <item>@string/dingwei</item>
+        <item>@string/zuhe</item>
+        <item>@string/heshu</item>
+        <item>@string/zusan</item>
+        <item>@string/zuliu</item>
+        <item>@string/kuadu</item>
+    </string-array>
+
+    <string-array name="QTB_DingWei">
+        <item>@string/b_dw</item>
+        <item>@string/s_dw</item>
+        <item>@string/g_dw</item>
+        <item>@string/bs_dw</item>
+        <item>@string/bg_dw</item>
+        <item>@string/sg_dw</item>
+        <item>@string/bsg_dw</item>
+    </string-array>
+
+    <string-array name="QTB_ZuiHe">
+        <item>@string/zh_yzzh</item>
+        <item>@string/zh_rzzh</item>
+        <item>@string/zh_szzh</item>
+    </string-array>
+
+    <string-array name="QTB_HS">
+        <item>@string/bshs</item>
+        <item>@string/bghs</item>
+        <item>@string/sghs</item>
+        <item>@string/bsghs</item>
+    </string-array>
+
+
+    <string-array name="cqxync_DATDate">
+        <item>@string/D1vsT2</item>
+        <item>@string/D1vsT3</item>
+        <item>@string/D1vsT4</item>
+        <item>@string/D1vsT5</item>
+        <item>@string/D1vsT6</item>
+        <item>@string/D1vsT7</item>
+
+        <item>@string/D1vsT8</item>
+        <item>@string/D2vsT3</item>
+        <item>@string/D2vsT4</item>
+        <item>@string/D2vsT5</item>
+        <item>@string/D2vsT6</item>
+        <item>@string/D2vsT7</item>
+        <item>@string/D2vsT8</item>
+
+        <item>@string/D3vsT4</item>
+        <item>@string/D3vsT5</item>
+        <item>@string/D3vsT6</item>
+        <item>@string/D3vsT7</item>
+        <item>@string/D3vsT8</item>
+
+        <item>@string/D4vsT5</item>
+        <item>@string/D4vsT6</item>
+        <item>@string/D4vsT7</item>
+        <item>@string/D4vsT8</item>
+
+        <item>@string/D5vsT6</item>
+        <item>@string/D5vsT7</item>
+        <item>@string/D5vsT8</item>
+        <item>@string/D6vsT7</item>
+
+        <item>@string/D6vsT8</item>
+        <item>@string/D7vsT8</item>
+    </string-array>
+
+    <string-array name="cqxync_SMDate">
+        <item>@string/first_ball</item>
+        <item>@string/second_ball</item>
+        <item>@string/third_ball</item>
+        <item>@string/fourth_ball</item>
+        <item>@string/fifth_ball</item>
+        <item>@string/sixth_ball</item>
+        <item>@string/seventh_ball</item>
+        <item>@string/eighth_ball</item>
+        <item>@string/sum</item>
+    </string-array>
+
+    <string-array name="send_msg_type">
+        <item>上级代理</item>
+        <item>代理</item>
+        <item>特邀</item>
+    </string-array>
+</resources>

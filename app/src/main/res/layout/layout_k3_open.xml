@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="34dp"
+    android:orientation="horizontal"
+    android:background="@color/open_item_bg">
+
+    <TextView
+        android:id="@+id/tv_expect_number"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/open_item_text"
+        android:text="@string/no."/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/open_item_text"/>
+
+    <TextView
+        android:id="@+id/tv_open_number"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/open_item_text"
+        android:text="@string/open_number"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/open_item_text"/>
+
+    <TextView
+        android:id="@+id/tv_sum_value"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/open_item_text"
+        android:text="@string/hz"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/open_item_text"/>
+
+    <TextView
+        android:id="@+id/tv_big_small"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/open_item_text"
+        android:text="@string/dx"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/open_item_text"/>
+
+    <TextView
+        android:id="@+id/tv_single_double"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/open_item_text"
+        android:text="@string/ds"/>
+
+</LinearLayout>

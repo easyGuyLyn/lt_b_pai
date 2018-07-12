@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="50dp"
+    android:background="@drawable/selector_play_title_item">
+
+    <TextView
+        android:id="@+id/tv_sscb_palyType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="玩法"
+        android:textColor="@color/text_color_bg_to_orige_text_selector"
+        android:textSize="@dimen/sp_12" />
+
+</RelativeLayout>

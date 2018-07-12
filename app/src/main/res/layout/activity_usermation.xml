@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical">
+
+    <com.dawoo.lotterybox.view.view.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white"
+
+                >
+                <RelativeLayout
+                    android:id="@+id/mine_avatar_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/account_avatar"
+                        android:textColor="@color/setting_account_color"
+                        android:textSize="@dimen/text_14_sp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/mine_avatar"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="20dp"
+                        android:src="@mipmap/mine_avatar" />
+
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="2dp"
+                        android:src="@mipmap/setting_image_setting" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/mine_view_bg" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/account_account"
+                        android:textColor="@color/setting_account_color"
+                        android:textSize="@dimen/text_14_sp" />
+
+                    <TextView
+                        android:id="@+id/account_account"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="20dp"
+                        android:onClick="onViewClicked"
+                        android:text="@string/account_account" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/mine_view_bg" />
+                <RelativeLayout
+                    android:id="@+id/account_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/account_name"
+                        android:textColor="@color/setting_account_color"
+                        android:textSize="@dimen/text_14_sp" />
+
+                    <TextView
+                        android:id="@+id/account_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="20dp"
+                        android:onClick="onViewClicked"
+                        android:text="@string/account_name" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="2dp"
+                        android:src="@mipmap/setting_image_setting" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/mine_view_bg" />
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:id="@+id/rl_real_name">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/real_name"
+                        android:textColor="@color/setting_account_color"
+                        android:textSize="@dimen/text_14_sp" />
+
+                    <TextView
+                        android:id="@+id/account_ID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="20dp"
+                        android:onClick="onViewClicked"
+                       />
+                    <ImageView
+                        android:id="@+id/go_real_change"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="2dp"
+                        android:src="@mipmap/setting_image_setting" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/mine_view_bg" />
+
+
+                <RelativeLayout
+                    android:id="@+id/forget_pwd_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/account_change_passwold"
+                        android:textColor="@color/setting_account_color"
+                        android:textSize="@dimen/text_14_sp" />
+                    <TextView
+                        android:id="@+id/tv_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="20dp"
+                        android:onClick="onViewClicked"
+                        android:text="修改" />
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="2dp"
+                        android:src="@mipmap/setting_image_setting" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/mine_view_bg" />
+
+                <RelativeLayout
+                    android:id="@+id/account_funding_passwold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/account_funding_passwold"
+                        android:textColor="@color/setting_account_color"
+                        android:textSize="@dimen/text_14_sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="20dp"
+                        android:onClick="onViewClicked"
+                        android:id="@+id/tv_set_ss_code"
+                        android:text="@string/account_setting" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="2dp"
+                        android:src="@mipmap/setting_image_setting" />
+                </RelativeLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/mine_view_bg" />
+
+                <RelativeLayout
+                    android:id="@+id/account_lock_screen_gesture"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="onViewClicked"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/account_lock_screen_gesture"
+                        android:textColor="@color/setting_account_color"
+                        android:textSize="@dimen/text_14_sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="30dp"
+                        android:id="@+id/tv_set_gesture_code"
+                        android:text="@string/account_setting" />
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_marginRight="2dp"
+                        android:src="@mipmap/setting_image_setting"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="@color/mine_view_bg" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:onClick="onViewClicked"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/account_device_lock"
+                        android:textColor="@color/setting_account_color"
+                        android:textSize="@dimen/text_14_sp" />
+
+
+                    <ImageView
+                        android:id="@+id/account_device_lock_open"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/switch_on"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/account_device_lock_close"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:src="@mipmap/switch_off" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/mine_user_lv_bg"
+                android:text="@string/setting_login_out"
+                android:textColor="@color/mine_view_bg"
+                android:textSize="@dimen/text_14_sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

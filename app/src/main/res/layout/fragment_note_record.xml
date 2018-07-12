@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/rl_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_title_bg"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_status_bar" />
+
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/note_tab_his"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_title_sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@drawable/shape_title_bg"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_note_tab_his"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:background="@drawable/note_button_left_selector"
+                android:text="@string/note_tab_his"
+                android:textColor="@color/text_color_bg_to_white_text_selector"
+                android:textSize="@dimen/text_12_sp" />
+
+            <Button
+                android:id="@+id/btn_note_tab_chaseNum"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:background="@drawable/note_button_mid_selector"
+                android:text="@string/note_tab_chaseNum"
+                android:textColor="@color/text_color_bg_to_white_text_selector"
+                android:textSize="@dimen/text_12_sp" />
+
+            <Button
+                android:id="@+id/btn_note_tab_cancelOrder"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:background="@drawable/note_button_right_selector"
+                android:text="@string/note_tab_cancelOrder"
+                android:textColor="@color/text_color_bg_to_white_text_selector"
+                android:textSize="@dimen/text_12_sp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_assets"
+        android:layout_below="@+id/rl_1" />
+
+</RelativeLayout>

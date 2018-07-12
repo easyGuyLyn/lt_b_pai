@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:id="@+id/day_before_rl"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="3"
+                android:background="@color/sharegifs_top_color"
+                android:onClick="onClick"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="前一天"
+                    android:textSize="@dimen/text_12_sp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/day_before_rlg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="3"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/data_day_rl"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0.5dp"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="5"
+                android:background="@color/sharegifs_top_color"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/date_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:drawablePadding="2dp"
+                    android:drawableTop="@mipmap/share_gifs_day"
+                    android:text="@string/data_time"
+                    android:textSize="@dimen/text_13_sp" />
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="20dp"
+                    android:gravity="center"
+                    android:text="12-25/12-25"
+                    android:textSize="@dimen/text_12_sp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/day_next"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="3"
+                android:background="@color/sharegifs_top_color"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/next_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="后一天"
+                    android:textSize="@dimen/text_12_sp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/day_nextg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="3"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/bgColor"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/game_record_species_rv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/game_record_species_tv"
+                    style="@style/game_record_first"
+                    android:text="@string/bill_details_all＿type" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray_999999" />
+
+            <RelativeLayout
+                android:id="@+id/game_record_betting_total_rv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/bill_details_all_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="全部  ▼"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12"
+                    android:visibility="visible" />
+
+
+                <com.yyydjk.library.DropDownMenu
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/dropDownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    app:dddividerColor="@color/gray"
+                    app:ddmaskColor="@color/mask_color"
+                    app:ddmenuBackgroundColor="@color/white"
+                    app:ddmenuMenuHeightPercent="0.5"
+                    app:ddmenuTextSize="13sp"
+                    app:ddtextSelectedColor="@color/drop_down_selected"
+                    app:ddtextUnselectedColor="@color/drop_down_unselected"
+                    app:ddunderlineColor="@color/gray" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray_999999" />
+
+            <RelativeLayout
+                android:id="@+id/game_record_winning_amount_rb"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/bill_details_all_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:drawableRight="@mipmap/img_up_down"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/bill_details_all_balance"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:id="@+id/game_record_winning_amount_tv_g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:drawableRight="@mipmap/img_down_up"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/bill_details_all_balance"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray_999999" />
+
+            <RelativeLayout
+                android:id="@+id/game_record_profit_and_loss_rv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/bill_details_all_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:drawableRight="@mipmap/img_up_down"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/bill_details_all_time"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:id="@+id/game_record_profit_and_loss_tv_g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:drawableRight="@mipmap/img_down_up"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/bill_details_all_time"
+                    android:textColor="@color/color_gray_666666"
+                    android:textSize="@dimen/sp_12"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/color_gray_999999" />
+
+        <include
+            layout="@layout/layout_swipetoloadlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <com.qhutch.bottomsheetlayout.BottomSheetLayout
+        android:id="@+id/bottom_sheet_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:collapsedHeight="53dp"
+        android:layout_alignParentBottom="true"
+        > <LinearLayout
+        android:id="@+id/ll_bottom_bootom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/game_record_bootom_color"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:padding="@dimen/dp_2"
+            android:text="合计:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/bill_details_all＿betting_total"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_12_sp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/bill_details_all＿betting_total" />
+
+                <TextView
+                    android:id="@+id/bill_details_all_winning_amount_vis"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_12_sp"
+
+                    android:gravity="left|center_vertical"
+                    android:onClick="onClick"
+                    android:paddingRight="10dp"
+                    android:text="@string/bill_details_all_winning_amount" />
+
+                <ImageView
+                    android:id="@+id/bill_details_all_winning_amount_gone"
+                    android:layout_width="15dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="@dimen/dp_8"
+                    android:text="@string/bill_details_all_winning_amount"
+                    android:src="@mipmap/img_gray_arrow_up"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/bill_details_all_total_withdrawals_chedan"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:textSize="@dimen/text_12_sp"
+                    android:text="@string/bill_details_all_total_withdrawals_chedan" />
+
+                <TextView
+                    android:id="@+id/bill_details_all_rebate_total"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:textSize="@dimen/text_12_sp"
+                    android:text="@string/bill_details_all_rebate_total" />
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="@dimen/dp_8"
+                    android:text="@string/bill_details_all_winning_amount"
+                    android:src="@mipmap/img_gray_arrow_up"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/game_record_bootom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+               >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/bill_details_all_recharge_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:textSize="@dimen/text_12_sp"
+                        android:text="@string/bill_details_all_recharge_amount" />
+
+                    <TextView
+                        android:id="@+id/bill_details_all_total_withdrawals_tixian"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:textSize="@dimen/text_12_sp"
+                        android:text="@string/bill_details_all_total_withdrawals_tixian" />
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="@dimen/dp_8"
+                        android:text="@string/bill_details_all_winning_amount"
+                        android:src="@mipmap/img_gray_arrow_up"
+                        android:visibility="invisible"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/bill_details_all_total_gifs"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:textSize="@dimen/text_12_sp"
+                        android:text="@string/bill_details_all_total_gifs" />
+
+                    <TextView
+                        android:id="@+id/bill_details_all_into_total"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:textSize="@dimen/text_12_sp"
+                        android:text="@string/bill_details_all__into_total" />
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="@dimen/dp_8"
+                        android:text="@string/bill_details_all_winning_amount"
+                        android:src="@mipmap/img_gray_arrow_up"
+                        android:visibility="invisible"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="23dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/bill_details_all_out_total"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:textSize="@dimen/text_12_sp"
+                        android:text="@string/bill_details_all_out_total" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    </com.qhutch.bottomsheetlayout.BottomSheetLayout>
+
+
+
+</RelativeLayout>

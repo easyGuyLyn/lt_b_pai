@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_activity_top"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ssc_b_top_height"
+    android:background="@mipmap/cq_ssc_a_top_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_periods"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_12_sp" />
+
+            <TextView
+                android:id="@+id/tv_xdh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_6"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_12_sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_now_stage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_12_sp" />
+
+            <TextView
+                android:id="@+id/tv_now_stage_state"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_12_sp" />
+
+            <com.dawoo.lotterybox.view.view.TimeTextView
+                android:id="@+id/ttv_timer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_nums"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dp_4">
+
+        <com.dawoo.lotterybox.view.view.NoMoveRecycleView
+            android:id="@+id/rv_numList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>

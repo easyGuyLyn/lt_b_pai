@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical">
+
+    <com.dawoo.lotterybox.view.view.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginTop="0.5dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="232dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/ic_avater_default" />
+
+            <TextView
+                android:id="@+id/account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/name"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/imageView6"
+                android:padding="@dimen/dp_2"
+                android:text="@string/mine_account"
+                android:textSize="@dimen/text_12_sp" />
+
+            <TextView
+                android:id="@+id/tv_account"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tv_nick_name"
+                android:layout_toEndOf="@+id/name"
+                android:ellipsize="end"
+                android:lines="1"
+                android:padding="@dimen/dp_2"
+                android:text="- -"
+                android:textColor="@color/color_gray_333333"
+                android:textSize="@dimen/text_12_sp" />
+
+            <TextView
+                android:id="@+id/tv_nick_name"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/name"
+                android:ellipsize="end"
+                android:lines="1"
+                android:padding="@dimen/dp_2"
+                android:text="- -"
+                android:textColor="@color/color_gray_333333"
+                android:textSize="@dimen/text_12_sp" />
+
+            <TextView
+                android:id="@+id/tv_id"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_nick_name"
+                android:layout_toEndOf="@+id/name"
+                android:ellipsize="end"
+                android:lines="1"
+                android:padding="@dimen/dp_2"
+                android:text="- -"
+                android:textColor="@color/color_gray_333333"
+                android:textSize="@dimen/text_12_sp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/account"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/dp_2"
+                android:text="@string/mine_name"
+                android:textSize="@dimen/text_12_sp" />
+
+            <TextView
+                android:id="@+id/account_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/name"
+                android:padding="@dimen/dp_2"
+                android:text="I    D:"
+                android:textSize="@dimen/text_12_sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.02"
+            android:background="@color/bgColor" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dp_14">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+
+                    app:srcCompat="@mipmap/ic_pig" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_toRightOf="@+id/imageView7"
+                    android:text="余额"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text_12_sp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="- -"
+                android:textColor="@color/colorAccent" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/mine_recharge"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@mipmap/ic_withdraw"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:id="@+id/iv_image_despo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_gray_333333"
+            android:text="充值"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/iv_image_despo"
+            android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/setting_image_setting"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="1dp"
+        android:id="@+id/mine_withdraw"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@mipmap/ic_desp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:id="@+id/iv_image_withdraw"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_gray_333333"
+            android:text="提现"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/iv_image_withdraw"
+            android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/setting_image_setting"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="1dp"
+        android:id="@+id/bank_card_managerment"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@mipmap/ic_bank_card"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:id="@+id/iv_bank_card"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_gray_333333"
+            android:text="银行卡管理"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/iv_bank_card"
+            android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/setting_image_setting"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="1dp"
+        android:id="@+id/bill_details"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@mipmap/ic_account_bill_detail"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:id="@+id/iv_bill"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_gray_333333"
+            android:text="账变明细"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/iv_bill"
+            android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/setting_image_setting"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

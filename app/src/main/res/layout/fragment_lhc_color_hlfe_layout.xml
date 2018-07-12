@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/color_top_rv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_35"
+        android:background="@color/sm_bg"></android.support.v7.widget.RecyclerView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0.5"
+        android:background="@color/color_gray_999999" />
+    <com.dawoo.lotterybox.view.view.QuestionAskView
+        android:layout_width="match_parent"
+        android:id="@+id/color_ask"
+        android:background="@color/sm_bg"
+        android:layout_height="@dimen/dp_35"></com.dawoo.lotterybox.view.view.QuestionAskView>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sm_bg"
+        android:id="@+id/color_content_rv"
+        ></android.support.v7.widget.RecyclerView>
+</LinearLayout>

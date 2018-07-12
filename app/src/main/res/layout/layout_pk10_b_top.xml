@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_activity_top"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ssc_b_top_height"
+    android:background="@mipmap/cq_ssc_a_top_bg"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_periods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_4"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_12_sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_nums"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/dp_4"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <com.dawoo.lotterybox.view.view.sortcar.SortCarSurfaceView
+                android:id="@+id/carView"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="@dimen/dp_6" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_xdh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp_6"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_12_sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_now_stage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_4"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_10_sp" />
+
+        <TextView
+            android:id="@+id/tv_now_stage_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_4"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_12_sp" />
+
+        <com.dawoo.lotterybox.view.view.TimeTextView
+            android:id="@+id/ttv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_4"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_30_sp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="43dp"
+    android:paddingLeft="22.5dp"
+    android:paddingRight="22.5dp"
+    android:paddingTop="46dp">
+
+    <Button
+        android:id="@+id/btn_open_camera"
+        android:layout_width="fill_parent"
+        android:layout_height="42dip"
+        android:gravity="center"
+        android:text="拍照"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+    <!--android:background="@drawable/btn_done_selector"-->
+
+    <!--android:background="@drawable/btn_done_selector"-->
+    <Button
+        android:id="@+id/btn_choose_img"
+        android:layout_width="fill_parent"
+        android:layout_height="42dip"
+        android:layout_marginTop="16dip"
+        android:gravity="center"
+        android:text="从相册中选择"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+    <!--android:background="@drawable/btn_round_selector"-->
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="42dip"
+        android:layout_marginTop="16dip"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#888888"
+        android:textSize="18sp" />
+
+</LinearLayout>

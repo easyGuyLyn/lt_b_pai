@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_title_bg"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_status_bar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height">
+
+            <FrameLayout
+                android:id="@+id/left_btn"
+                android:layout_width="42dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin"
+                    android:src="@mipmap/head_back_icon_unclick" />
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/title_name"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_title_sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/trend_icon_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/img_numchart_white" />
+
+                <TextView
+                    android:id="@+id/trend_icon_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="走势图"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_14_sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/go_to_lottery_fl"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_gray_D2D2D2">
+
+        <Button
+            android:id="@+id/go_to_lottery_btn"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_corn_bg_orange"
+            android:textColor="@color/sharegifs_top_color"
+            android:textSize="@dimen/text_14_sp" />
+    </FrameLayout>
+
+    <include
+        layout="@layout/layout_swipetoloadlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/go_to_lottery_fl"
+        android:layout_below="@id/head_view" />
+
+</RelativeLayout>

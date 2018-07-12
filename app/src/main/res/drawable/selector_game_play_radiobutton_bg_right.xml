@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shape_radiobutton_background_unchecked_right"
+        android:state_checked="false" />
+    <item android:drawable="@drawable/shape_radiobutton_background_checked_right"
+        android:state_checked="true" />
+</selector>

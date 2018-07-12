@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical">
+
+    <com.dawoo.lotterybox.view.view.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/species_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/imageView8"
+            android:layout_marginStart="19dp"
+            android:text="双色球" />
+
+        <TextView
+            android:id="@+id/species_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/species_name"
+            android:layout_below="@+id/species_name"
+            android:textSize="@dimen/text_11_sp"
+            android:text="每周二,四,日,开奖" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="23dp"
+            app:srcCompat="@mipmap/switch_off" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/species_name１"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/imageView8１"
+            android:layout_marginStart="19dp"
+            android:text="3D" />
+
+        <TextView
+            android:id="@+id/species_message１"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/species_name１"
+            android:layout_below="@+id/species_name１"
+            android:text="每天开奖包括试机号提醒"
+            android:textSize="@dimen/text_11_sp"/>
+
+        <ImageView
+            android:id="@+id/imageView8１"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="23dp"
+            app:srcCompat="@mipmap/switch_off" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/species_name２"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/imageView8２"
+            android:layout_marginStart="19dp"
+            android:text="七星彩" />
+
+        <TextView
+            android:id="@+id/species_message２"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/species_name２"
+            android:layout_below="@+id/species_name２"
+            android:textSize="@dimen/text_11_sp"
+            android:text="每周二,五,日,开奖" />
+
+        <ImageView
+            android:id="@+id/imageView8２"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="23dp"
+            app:srcCompat="@mipmap/switch_off" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/species_name３"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/imageView8３"
+            android:layout_marginStart="19dp"
+            android:text="排列3/5" />
+
+        <TextView
+            android:id="@+id/species_message３"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/species_name３"
+            android:layout_below="@+id/species_name３"
+            android:text="每天开奖"
+            android:textSize="@dimen/text_11_sp"/>
+
+        <ImageView
+            android:id="@+id/imageView8３"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="23dp"
+            app:srcCompat="@mipmap/switch_off" />
+    </RelativeLayout>
+
+
+</LinearLayout>

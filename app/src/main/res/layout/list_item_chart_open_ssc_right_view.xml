@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/color_chart_item_bg">
+
+
+    <FrameLayout
+        style="@style/right_chart_frame_style"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/tv_item_right_1"
+            style="@style/right_chart_text_title_style" />
+
+        <View
+            android:id="@+id/view_1"
+            style="@style/right_chart_divider_style" />
+
+    </FrameLayout>
+
+
+    <FrameLayout style="@style/right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_2"
+            style="@style/right_chart_text_title_style" />
+
+        <View
+            android:id="@+id/view_2"
+            style="@style/right_chart_divider_style" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_3"
+            style="@style/right_chart_text_title_style" />
+
+        <View
+            android:id="@+id/view_3"
+            style="@style/right_chart_divider_style" />
+    </FrameLayout>
+
+    <FrameLayout style="@style/right_chart_frame_style">
+
+        <TextView
+            android:id="@+id/tv_item_right_4"
+            style="@style/right_chart_text_title_style" />
+
+        <View
+            android:id="@+id/view_4"
+            style="@style/right_chart_divider_style" />
+    </FrameLayout>
+</LinearLayout>

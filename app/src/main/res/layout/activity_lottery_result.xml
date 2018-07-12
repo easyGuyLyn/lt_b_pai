@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.dawoo.lotterybox.view.view.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv_order_info"
+        android:layout_below="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="75dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/bgColor"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv_expect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:gravity="center"
+                android:textColor="@color/color_gray_666666"
+                android:textSize="@dimen/text_14_sp"
+                android:text="@string/the_expect"/>
+            <TextView
+                android:id="@+id/tv_bet_info"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_20"
+                android:gravity="center"
+                android:textColor="@color/color_gray_666666"
+                android:textSize="@dimen/text_14_sp"
+                android:text="@string/the_order_info"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv_view_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_16_sp"
+                android:text="查看记录"
+                android:background="@drawable/shape_btn_white_round_bg"
+                android:paddingTop="@dimen/dp_5"
+                android:paddingBottom="@dimen/dp_5"
+                android:paddingLeft="@dimen/dp_20"
+                android:paddingRight="@dimen/dp_20"/>
+            <TextView
+                android:id="@+id/tv_continue_bet"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_20"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_16_sp"
+                android:text="继续投注"
+                android:background="@drawable/shape_btn_red_bg"
+                android:paddingTop="@dimen/dp_5"
+                android:paddingBottom="@dimen/dp_5"
+                android:paddingLeft="@dimen/dp_20"
+                android:paddingRight="@dimen/dp_20"
+                />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

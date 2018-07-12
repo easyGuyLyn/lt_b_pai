@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/chicken_peck1"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck2"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck3"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck4"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck5"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck6"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck7"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck8"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck9"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck10"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck11"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck12"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck13"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck14"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck15"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck16"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck17"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck18"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck19"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck20"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck21"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck22"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck23"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck24"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck25"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck26"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck27"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck28"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck29"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck30"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck31"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck32"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck33"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck34"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck35"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck36"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck37"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck38"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck39"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck40"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck41"
+        android:duration="60" />
+    <item
+        android:drawable="@drawable/chicken_peck42"
+        android:duration="60" />
+
+</animation-list>

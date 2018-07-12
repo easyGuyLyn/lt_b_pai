@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_yellow_normal"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp">
+
+        <TextView
+            android:id="@+id/tv_play_style_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center|left"
+            android:paddingLeft="@dimen/dp_10"
+            android:text="后三"
+            android:textColor="@color/color_gray_666666"
+            android:textSize="@dimen/sp_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dp_10">
+
+        <TextView
+            android:id="@+id/tv_play_style_parent1"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_10"
+            android:text="后三直选"
+            android:textColor="@color/color_gray_666666"
+            android:textSize="@dimen/sp_12" />
+
+        <com.dawoo.lotterybox.view.view.NoMoveRecycleView
+            android:id="@+id/rv_play_style_child"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_4" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
