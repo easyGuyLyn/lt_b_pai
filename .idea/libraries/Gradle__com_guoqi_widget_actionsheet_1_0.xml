@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.guoqi.widget:actionsheet-1.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/actionsheet-1.0.aar/efab8e15cf19c17f0baa449f5e92c7fe/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/actionsheet-1.0.aar/efab8e15cf19c17f0baa449f5e92c7fe/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.guoqi.widget/actionsheet/1.0/504cbed82647d90d120965d2c8ca948ff794c213/actionsheet-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

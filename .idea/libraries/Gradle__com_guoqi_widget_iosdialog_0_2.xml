@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.guoqi.widget:iosdialog-0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iosdialog-0.2.aar/8b8641a176c855e5aff4240563f78473/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iosdialog-0.2.aar/8b8641a176c855e5aff4240563f78473/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.guoqi.widget/iosdialog/0.2/80f590b0f9111c630ae82d8f2a803944453db3f3/iosdialog-0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

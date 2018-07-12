@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: it.sephiroth.android.library.easing:library-1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.0.2.aar/495038b18f3d459f487b9b8930eaf994/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.0.2.aar/495038b18f3d459f487b9b8930eaf994/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.sephiroth.android.library.easing/library/1.0.2/ec57cc90bf4046b7c86639179dd18a769d97bc8b/library-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

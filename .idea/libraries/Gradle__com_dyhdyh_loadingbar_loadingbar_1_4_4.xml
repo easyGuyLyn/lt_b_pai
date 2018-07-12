@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.dyhdyh.loadingbar:loadingbar-1.4.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loadingbar-1.4.4.aar/2763cdea28a5f73025e8b72a5c05f2f7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/loadingbar-1.4.4.aar/2763cdea28a5f73025e8b72a5c05f2f7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dyhdyh.loadingbar/loadingbar/1.4.4/e7fe703c40fe81524b66fe39b57b097c2bddf9ec/loadingbar-1.4.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
